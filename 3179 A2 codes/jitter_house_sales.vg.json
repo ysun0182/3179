@@ -1,0 +1,65 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+
+  "title": "House Sales by Price Level (Q4 2025)",
+  "width": 700,
+  "height": 450,
+
+  "data": {
+    "url": "data/map2_house_sales_q4_2025.csv"
+  },
+
+  "transform": [
+    {
+      "filter": "datum.sales_q4_2025 > 0 && datum.median_price_q4_2025 > 0"
+    },
+    {
+      "calculate": "datum.median_price_q4_2025 < 1100000 ? 'Low' : datum.median_price_q4_2025 < 2000000 ? 'Medium' : 'High'",
+      "as": "Price Level"
+    }
+  ],
+
+  "mark": {
+    "type": "circle",
+    "size": 50,
+    "opacity": 0.5
+  },
+
+  "encoding": {
+    "x": {
+      "field": "Price Level",
+      "type": "nominal",
+      "sort": ["Low", "Medium", "High"],
+      "title": "House Price Level"
+    },
+
+    "xOffset": {
+      "field": "suburb"
+    },
+
+    "y": {
+      "field": "sales_q4_2025",
+      "type": "quantitative",
+      "title": "House Sales (Q4 2025)"
+    },
+
+    "tooltip": [
+      {
+        "field": "suburb",
+        "type": "nominal",
+        "title": "Suburb"
+      },
+      {
+        "field": "median_price_q4_2025",
+        "type": "quantitative",
+        "title": "Median House Price",
+        "format": "$,.0f"
+      },
+      {
+        "field": "sales_q4_2025",
+        "type": "quantitative",
+        "title": "House Sales"
+      }
+    ]
+  }
+}

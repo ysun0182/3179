@@ -1,0 +1,452 @@
+suburb,join_key,median_price_q4_2025,median_price_q4_2025_reported,q4_2025_status,sales_q4_2025,sales_12m_to_q4_2025,change_yoy_pct,change_qoq_pct
+Abbotsford,ABBOTSFORD,560800,560800,normal,84.0,335,7.9,10
+Aberfeldie,ABERFELDIE,661000,661000,fewer_than_10_sales,7.0,30,-20.6,11.1
+Aintree,AINTREE,,,,,,,
+Airport West,AIRPORT WEST,695000,695000,normal,30.0,126,-3.3,-2.6
+Albanvale,ALBANVALE,,,,,,,
+Albert Park,ALBERT PARK,1253500,1253500,fewer_than_10_sales,6.0,28,83.7,70.5
+Albion,ALBION,461300,461300,normal,16.0,82,76.7,31.8
+Alphington,ALPHINGTON,810000,810000,normal,39.0,131,-5.8,-3.6
+Altona,ALTONA,738000,738000,normal,39.0,179,4.3,9.8
+Altona Meadows,ALTONA MEADOWS,580000,580000,normal,11.0,31,0,2.7
+Altona North,ALTONA NORTH,750000,750000,normal,18.0,72,1.2,2.7
+Ardeer,ARDEER,570000,570000,fewer_than_10_sales,7.0,31,-7.2,4.6
+Armadale,ARMADALE,662500,662500,normal,78.0,260,-15.4,-5.4
+Arthurs Seat,ARTHURS SEAT,,,,,,,
+Ascot Vale,ASCOT VALE,561000,561000,normal,41.0,150,11.6,3.9
+Ashburton,ASHBURTON,1210000,1210000,normal,11.0,32,0,16.3
+Ashwood,ASHWOOD,1236500,1236500,normal,18.0,55,53,45.7
+Aspendale,ASPENDALE,881000,881000,normal,21.0,64,10.1,3.8
+Aspendale Gardens,ASPENDALE GARDENS,,,,,,,
+Attwood,ATTWOOD,,,,,,,
+Avondale Heights,AVONDALE HEIGHTS,865500,865500,normal,12.0,36,12.5,16.8
+Balaclava,BALACLAVA,600000,600000,normal,39.0,133,-1.2,5.7
+Balnarring,BALNARRING,,,,,,,
+Balwyn,BALWYN,855500,855500,normal,54.0,175,3,4.5
+Balwyn North,BALWYN NORTH,1210000,1210000,normal,24.0,71,23.4,16.9
+Bangholme,BANGHOLME,,,,,,,
+Baxter,BAXTER,650000,650000,fewer_than_10_sales,2.0,11,,0
+Bayswater,BAYSWATER,704500,704500,normal,42.0,173,-2.8,2.4
+Bayswater North,BAYSWATER NORTH,656000,656000,normal,33.0,119,-2.1,-6.6
+Beaconsfield,BEACONSFIELD,621500,621500,fewer_than_10_sales,5.0,19,6.8,-13.7
+Beaconsfield Upper,BEACONSFIELD UPPER,,,,,,,
+Beaumaris,BEAUMARIS,1011500,1011500,normal,18.0,71,-21,-8.4
+Belgrave,BELGRAVE,,,,,,,
+Belgrave Heights,BELGRAVE HEIGHTS,,,,,,,
+Bellfield,BELLFIELD,630000,630000,fewer_than_10_sales,5.0,25,1.6,-27.6
+Bentleigh,BENTLEIGH,910000,910000,normal,65.0,223,14.5,24.7
+Bentleigh East,BENTLEIGH EAST,1195000,1195000,normal,90.0,300,35.8,8.6
+Berwick,BERWICK,742500,742500,normal,46.0,141,13,8.4
+Beveridge,BEVERIDGE,,,,,,,
+Bittern,BITTERN,685000,685000,fewer_than_10_sales,7.0,28,20,-13.8
+Black Rock,BLACK ROCK,980000,980000,normal,17.0,56,-26.1,-33.9
+Blackburn,BLACKBURN,788000,788000,normal,53.0,206,3,4.4
+Blackburn North,BLACKBURN NORTH,877500,877500,normal,10.0,32,10.9,5.6
+Blackburn South,BLACKBURN SOUTH,820000,820000,normal,15.0,44,17.1,-16.2
+Blairgowrie,BLAIRGOWRIE,,,,,,,
+Bonbeach,BONBEACH,853300,853300,normal,34.0,127,31.7,19.7
+Boneo,BONEO,,,,,,,
+Bonnie Brook,BONNIE BROOK,,,,,,,
+Boronia,BORONIA,720000,720000,normal,84.0,286,12.5,0.7
+Botanic Ridge,BOTANIC RIDGE,,,,,,,
+Box Hill,BOX HILL,570000,570000,normal,133.0,565,-4.9,9.6
+Box Hill North,BOX HILL NORTH,923000,923000,normal,29.0,108,9.5,-2.2
+Box Hill South,BOX HILL SOUTH,836000,836000,normal,25.0,86,-10.2,-14.5
+Braeside,BRAESIDE,,,,,,,
+Braybrook,BRAYBROOK,614000,614000,normal,26.0,99,-4.1,-1.8
+Briar Hill,BRIAR HILL,890000,890000,fewer_than_10_sales,4.0,27,-15.2,16.3
+Brighton,BRIGHTON,1090000,1090000,normal,96.0,325,-31.2,-24.8
+Brighton East,BRIGHTON EAST,1090000,1090000,normal,29.0,107,-9.2,-21
+Broadmeadows,BROADMEADOWS,520000,520000,normal,47.0,154,10.6,4
+Brookfield,BROOKFIELD,,,,,,,
+Brooklyn,BROOKLYN,680000,680000,normal,17.0,64,4.6,4.6
+Brunswick,BRUNSWICK,610000,610000,normal,139.0,501,1.7,-0.6
+Brunswick East,BRUNSWICK EAST,530000,530000,normal,106.0,391,-1.1,-4.7
+Brunswick West,BRUNSWICK WEST,589000,589000,normal,98.0,326,15.3,12.7
+Bulla,BULLA,,,,,,,
+Bulleen,BULLEEN,795000,795000,normal,13.0,56,10.4,-0.6
+Bundoora,BUNDOORA,450000,450000,normal,68.0,243,-3.2,-16.7
+Bunyip,BUNYIP,,,,,,,
+Burnley,BURNLEY,435000,435000,fewer_than_10_sales,5.0,19,45,-15.9
+Burnside,BURNSIDE,,,,,,,
+Burnside Heights,BURNSIDE HEIGHTS,,,,,,,
+Burwood,BURWOOD,971500,971500,normal,48.0,184,33.1,13.2
+Burwood East,BURWOOD EAST,830000,830000,normal,25.0,95,33.9,-2.6
+Cairnlea,CAIRNLEA,402500,402500,fewer_than_10_sales,8.0,23,-3.7,-1.2
+Calder Park,CALDER PARK,,,,,,,
+Camberwell,CAMBERWELL,1105000,1105000,normal,80.0,245,26.3,18.4
+Campbellfield,CAMPBELLFIELD,,,,,,,
+Canterbury,CANTERBURY,1097500,1097500,normal,22.0,54,1.6,-6.2
+Capel Sound,CAPEL SOUND,640000,640000,normal,16.0,61,2.4,-11.7
+Cardinia,CARDINIA,,,,,,,
+Carlton,CARLTON,360000,360000,normal,148.0,519,-21.7,6.7
+Carlton North,CARLTON NORTH,720000,720000,normal,12.0,30,8.3,-1.4
+Carnegie,CARNEGIE,630000,630000,normal,135.0,473,0,6.3
+Caroline Springs,CAROLINE SPRINGS,485000,485000,normal,21.0,77,-2,-11.8
+Carrum,CARRUM,992500,992500,normal,24.0,90,17.1,23.4
+Carrum Downs,CARRUM DOWNS,640000,640000,normal,41.0,182,11.1,0
+Caulfield,CAULFIELD,737500,737500,normal,28.0,105,-23.5,-21.5
+Caulfield East,CAULFIELD EAST,299800,299800,fewer_than_10_sales,8.0,20,-54.6,-69
+Caulfield North,CAULFIELD NORTH,665000,665000,normal,91.0,286,-0.2,9.4
+Caulfield South,CAULFIELD SOUTH,1185000,1185000,normal,43.0,172,28.1,14.4
+Chadstone,CHADSTONE,894000,894000,normal,38.0,116,64,17.6
+Chelsea,CHELSEA,803000,803000,normal,41.0,177,12.9,17.1
+Chelsea Heights,CHELSEA HEIGHTS,890300,890300,fewer_than_10_sales,4.0,14,24.9,19.1
+Cheltenham,CHELTENHAM,721500,721500,normal,62.0,238,2.3,8.5
+Chirnside Park,CHIRNSIDE PARK,795000,795000,fewer_than_10_sales,7.0,40,10,6
+Clarinda,CLARINDA,780000,780000,fewer_than_10_sales,6.0,24,3,-3.1
+Clayton,CLAYTON,686500,686500,normal,55.0,254,-1.5,-14.2
+Clayton South,CLAYTON SOUTH,811000,811000,normal,14.0,66,56.7,53
+Clifton Hill,CLIFTON HILL,726000,726000,normal,12.0,59,-17.5,-2.6
+Clyde,CLYDE,,,,,,,
+Clyde North,CLYDE NORTH,635000,635000,fewer_than_10_sales,3.0,8,2.8,6.7
+Cobblebank,COBBLEBANK,,,,,,,
+Coburg,COBURG,580000,580000,normal,55.0,270,-14.1,-6.1
+Coburg North,COBURG NORTH,685000,685000,normal,11.0,38,7.9,-4.1
+Coldstream,COLDSTREAM,,,,,,,
+Collingwood,COLLINGWOOD,615000,615000,normal,73.0,257,6,-3.8
+Coolaroo,COOLAROO,,,,,,,
+Craigieburn,CRAIGIEBURN,490500,490500,normal,72.0,274,16.7,6.1
+Cranbourne,CRANBOURNE,544800,544800,normal,30.0,126,18.9,0.9
+Cranbourne East,CRANBOURNE EAST,540000,540000,fewer_than_10_sales,3.0,22,3.8,-4
+Cranbourne North,CRANBOURNE NORTH,553000,553000,fewer_than_10_sales,7.0,32,14.7,5.3
+Cranbourne South,CRANBOURNE SOUTH,,,,,,,
+Cranbourne West,CRANBOURNE WEST,540000,540000,fewer_than_10_sales,4.0,29,-6.1,-6.1
+Cremorne,CREMORNE,682500,682500,normal,18.0,53,28.5,14.6
+Crib Point,CRIB POINT,660000,660000,normal,12.0,32,3.1,8.2
+Croydon,CROYDON,765000,765000,normal,104.0,418,15.9,0.7
+Croydon Hills,CROYDON HILLS,,,,,,,
+Croydon North,CROYDON NORTH,749500,749500,normal,18.0,53,7.1,6.3
+Croydon South,CROYDON SOUTH,860000,860000,fewer_than_10_sales,9.0,32,17,5.3
+Dallas,DALLAS,535000,535000,fewer_than_10_sales,6.0,24,28.1,12.6
+Dandenong,DANDENONG,467500,467500,normal,147.0,562,11.3,-3.6
+Dandenong North,DANDENONG NORTH,634500,634500,normal,23.0,87,8.5,10.6
+Dandenong South,DANDENONG SOUTH,,,,,,,
+Deanside,DEANSIDE,,,,,,,
+Deepdene,DEEPDENE,1065000,1065000,fewer_than_10_sales,6.0,20,-37.4,25.9
+Deer Park,DEER PARK,536000,536000,fewer_than_10_sales,9.0,53,4.6,-6
+Delahey,DELAHEY,580000,580000,fewer_than_10_sales,5.0,14,23.7,-6.5
+Derrimut,DERRIMUT,,,,,,,
+Devon Meadows,DEVON MEADOWS,,,,,,,
+Diamond Creek,DIAMOND CREEK,805000,805000,fewer_than_10_sales,9.0,31,-0.6,4.1
+Diggers Rest,DIGGERS REST,,,,,,,
+Dingley Village,DINGLEY VILLAGE,851000,851000,normal,14.0,43,16.2,6.2
+Docklands,DOCKLANDS,560000,560000,normal,150.0,572,-0.9,5.2
+Doncaster,DONCASTER,680000,680000,normal,101.0,378,8.8,14.3
+Doncaster East,DONCASTER EAST,853000,853000,normal,84.0,284,-11.4,-7.5
+Donnybrook,DONNYBROOK,,,,,,,
+Donvale,DONVALE,965000,965000,normal,25.0,71,10.6,14.9
+Doreen,DOREEN,610000,610000,fewer_than_10_sales,9.0,29,26.9,1.7
+Doveton,DOVETON,580000,580000,normal,31.0,105,7.4,2.7
+Dromana,DROMANA,797500,797500,normal,12.0,42,0.6,7.8
+Eaglemont,EAGLEMONT,821500,821500,fewer_than_10_sales,6.0,25,-51.1,-34.3
+East Melbourne,EAST MELBOURNE,686300,686300,normal,36.0,106,-2,-6
+Edithvale,EDITHVALE,867000,867000,normal,29.0,89,8.7,2.9
+Elsternwick,ELSTERNWICK,641500,641500,normal,90.0,233,2.6,-16.9
+Eltham,ELTHAM,770500,770500,normal,28.0,94,-2.1,-14.5
+Eltham North,ELTHAM NORTH,,,,,,,
+Elwood,ELWOOD,620000,620000,normal,151.0,474,-5.8,-5.1
+Emerald,EMERALD,,,,,,,
+Endeavour Hills,ENDEAVOUR HILLS,710000,710000,normal,15.0,47,15.4,14.1
+Epping,EPPING,527000,527000,normal,35.0,158,3.9,4.4
+Essendon,ESSENDON,585000,585000,normal,103.0,372,3.5,6.4
+Essendon Fields,ESSENDON FIELDS,,,,,,,
+Essendon North,ESSENDON NORTH,499000,499000,normal,21.0,92,34.9,22.9
+Essendon West,ESSENDON WEST,685000,685000,fewer_than_10_sales,1.0,13,-6.2,-18.9
+Eumemmerring,EUMEMMERRING,606000,606000,normal,10.0,38,2.7,13.8
+Exford,EXFORD,,,,,,,
+Fairfield,FAIRFIELD,493000,493000,normal,36.0,124,-17.8,-4.8
+Fawkner,FAWKNER,667500,667500,normal,36.0,124,16.1,5.8
+Ferntree Gully,FERNTREE GULLY,755000,755000,normal,43.0,166,11,4.9
+Fieldstone,FIELDSTONE,,,,,,,
+Fingal,FINGAL,,,,,,,
+Fitzroy,FITZROY,867000,867000,normal,51.0,168,4.9,17.2
+Fitzroy North,FITZROY NORTH,695000,695000,normal,46.0,152,7.3,-1.5
+Flemington,FLEMINGTON,567000,567000,normal,48.0,232,38.3,13.5
+Flinders,FLINDERS,,,,,,,
+Footscray,FOOTSCRAY,480000,480000,normal,138.0,498,-3,16.4
+Forest Hill,FOREST HILL,845000,845000,normal,23.0,77,42,10.5
+Frankston,FRANKSTON,617500,617500,normal,120.0,511,19.3,9.2
+Frankston North,FRANKSTON NORTH,,,,,,,
+Frankston South,FRANKSTON SOUTH,882000,882000,normal,26.0,77,21.7,15.3
+Fraser Rise,FRASER RISE,,,,,,,
+Gardenvale,GARDENVALE,335000,335000,fewer_than_10_sales,5.0,21,-76.5,-59.5
+Garfield,GARFIELD,482000,482000,fewer_than_10_sales,7.0,13,-5.5,-3.6
+Gembrook,GEMBROOK,,,,,,,
+Gladstone Park,GLADSTONE PARK,,,,,,,
+Glen Huntly,GLEN HUNTLY,660000,660000,normal,47.0,151,10.9,-1.2
+Glen Iris,GLEN IRIS,740000,740000,normal,95.0,383,-2,13
+Glen Waverley,GLEN WAVERLEY,995000,995000,normal,69.0,240,8.4,0.8
+Glenroy,GLENROY,630000,630000,normal,115.0,439,9.1,-2.2
+Gowanbrae,GOWANBRAE,735500,735500,fewer_than_10_sales,2.0,8,10.3,-9.3
+Grangefields,GRANGEFIELDS,,,,,,,
+Greensborough,GREENSBOROUGH,761500,761500,normal,33.0,121,7.3,0.2
+Greenvale,GREENVALE,655000,655000,normal,11.0,24,-10.6,-0.4
+Hadfield,HADFIELD,620000,620000,normal,25.0,80,-1.8,-5
+Hallam,HALLAM,630000,630000,normal,18.0,54,18.9,-2.5
+Hampton,HAMPTON,1208800,1208800,normal,42.0,183,25.3,12.9
+Hampton East,HAMPTON EAST,885000,885000,fewer_than_10_sales,8.0,36,4.6,13.5
+Hampton Park,HAMPTON PARK,595000,595000,normal,22.0,91,2.6,-0.3
+Harkaway,HARKAWAY,,,,,,,
+Harkness,HARKNESS,510000,510000,fewer_than_10_sales,7.0,32,21.1,14.6
+Hastings,HASTINGS,576000,576000,normal,16.0,68,2.9,-3.6
+Hawthorn,HAWTHORN,581000,581000,normal,156.0,552,1,0
+Hawthorn East,HAWTHORN EAST,640000,640000,normal,83.0,348,-1,0
+Healesville,HEALESVILLE,720000,720000,normal,10.0,38,12.5,5.9
+Heatherton,HEATHERTON,,,,,,,
+Heathmont,HEATHMONT,815000,815000,normal,11.0,65,19.3,8.2
+Heidelberg,HEIDELBERG,684000,684000,normal,37.0,132,5.2,5.2
+Heidelberg Heights,HEIDELBERG HEIGHTS,760000,760000,normal,37.0,160,1.3,0.9
+Heidelberg West,HEIDELBERG WEST,672000,672000,normal,20.0,116,1.1,-1.3
+Highett,HIGHETT,702000,702000,normal,59.0,207,7.8,-1.1
+Hillside,HILLSIDE,,,,,,,
+Hmas Cerberus,HMAS CERBERUS,,,,,,,
+Hoppers Crossing,HOPPERS CROSSING,500000,500000,normal,29.0,86,16,3.4
+Hughesdale,HUGHESDALE,761500,761500,normal,24.0,89,-9.5,4
+Huntingdale,HUNTINGDALE,440000,440000,fewer_than_10_sales,3.0,17,-25.4,1.1
+Hurstbridge,HURSTBRIDGE,,,,,,,
+Ivanhoe,IVANHOE,725000,725000,normal,77.0,256,-6.5,-0.7
+Ivanhoe East,IVANHOE EAST,881300,881300,normal,12.0,45,-13.3,-18.8
+Jacana,JACANA,592500,592500,fewer_than_10_sales,4.0,24,23.4,7.7
+Junction Village,JUNCTION VILLAGE,440000,440000,fewer_than_10_sales,5.0,8,0,-12
+Kalkallo,KALKALLO,,,,,,,
+Kangaroo Ground,KANGAROO GROUND,,,,,,,
+Kealba,KEALBA,,,,,,,
+Keilor,KEILOR,,,,,,,
+Keilor Downs,KEILOR DOWNS,620000,620000,fewer_than_10_sales,3.0,21,-0.3,-6.5
+Keilor East,KEILOR EAST,701000,701000,normal,17.0,48,-9.8,-11.7
+Keilor Lodge,KEILOR LODGE,,,,,,,
+Keilor Park,KEILOR PARK,,,,,,,
+Kensington,KENSINGTON,457600,457600,normal,48.0,164,-18.3,4.5
+Kew,KEW,846000,846000,normal,86.0,322,15.9,15.9
+Kew East,KEW EAST,1132500,1132500,fewer_than_10_sales,5.0,14,50.8,57.3
+Keysborough,KEYSBOROUGH,710000,710000,normal,19.0,71,-2.7,0
+Kilsyth,KILSYTH,750000,750000,normal,40.0,139,8.3,1.4
+Kilsyth South,KILSYTH SOUTH,,,,,,,
+Kings Park,KINGS PARK,,,,,,,
+Kingsbury,KINGSBURY,580000,580000,normal,10.0,48,11.5,34.5
+Kingsville,KINGSVILLE,415000,415000,normal,23.0,60,6.4,19.3
+Knoxfield,KNOXFIELD,800000,800000,normal,13.0,53,-1.8,-0.1
+Koo Wee Rup,KOO WEE RUP,535000,535000,fewer_than_10_sales,3.0,13,8.1,-5.3
+Koo Wee Rup North,KOO WEE RUP NORTH,,,,,,,
+Kooyong,KOOYONG,,,,,,,
+Kurunjang,KURUNJANG,440000,440000,fewer_than_10_sales,7.0,20,6,-13.7
+Lalor,LALOR,602500,602500,normal,29.0,91,16.8,-2
+Lang Lang,LANG LANG,,,,,,,
+Lang Lang East,LANG LANG EAST,,,,,,,
+Langwarrin,LANGWARRIN,683000,683000,normal,37.0,151,14.6,5.1
+Langwarrin South,LANGWARRIN SOUTH,,,,,,,
+Launching Place,LAUNCHING PLACE,,,,,,,
+Laverton,LAVERTON,570000,570000,normal,21.0,76,16.3,1.8
+Laverton North,LAVERTON NORTH,,,,,,,
+Lilydale,LILYDALE,610000,610000,normal,68.0,235,0.8,-5.1
+Little River,LITTLE RIVER,,,,,,,
+Lower Plenty,LOWER PLENTY,828000,828000,normal,11.0,44,21.1,34
+Lynbrook,LYNBROOK,667000,667000,fewer_than_10_sales,5.0,13,22.9,-4
+Lyndhurst,LYNDHURST,,,,,,,
+Lysterfield,LYSTERFIELD,,,,,,,
+Lysterfield South,LYSTERFIELD SOUTH,,,,,,,
+Macleod,MACLEOD,781000,781000,normal,18.0,79,4.3,2.8
+Maidstone,MAIDSTONE,620000,620000,normal,50.0,148,-8.8,-3.1
+Malvern,MALVERN,700000,700000,normal,42.0,175,2.6,0.1
+Malvern East,MALVERN EAST,647500,647500,normal,78.0,297,2.4,3.5
+Mambourin,MAMBOURIN,,,,,,,
+Manor Lakes,MANOR LAKES,,,,,,,
+Maribyrnong,MARIBYRNONG,505000,505000,normal,75.0,279,-1.5,14.8
+McCrae,MCCRAE,715000,715000,fewer_than_10_sales,7.0,21,-18.8,1.1
+McKinnon,MCKINNON,894500,894500,normal,28.0,84,24.4,-4.9
+Meadow Heights,MEADOW HEIGHTS,515000,515000,fewer_than_10_sales,9.0,63,-3.7,-1.6
+Melbourne,MELBOURNE,525000,525000,normal,733.0,2843,-2.4,-2.8
+Melbourne Airport,MELBOURNE AIRPORT,,,,,,,
+Melton,MELTON,435000,435000,normal,10.0,42,14.5,3.7
+Melton South,MELTON SOUTH,393000,393000,normal,15.0,62,6.2,-0.3
+Melton West,MELTON WEST,,,,,,,
+Mentone,MENTONE,640000,640000,normal,61.0,266,-5.8,-11.4
+Mernda,MERNDA,419500,419500,normal,11.0,58,-18.9,-30.9
+Mickleham,MICKLEHAM,606000,606000,fewer_than_10_sales,9.0,40,10.2,-2.3
+Middle Park,MIDDLE PARK,685500,685500,normal,10.0,38,-35.3,-22.1
+Mill Park,MILL PARK,591000,591000,normal,24.0,85,9.5,-1.3
+Millgrove,MILLGROVE,,,,,,,
+Mitcham,MITCHAM,915000,915000,normal,53.0,178,20.1,6.8
+Monbulk,MONBULK,,,,,,,
+Mont Albert,MONT ALBERT,750000,750000,normal,14.0,64,-20.6,-9.1
+Mont Albert North,MONT ALBERT NORTH,1500000,1500000,normal,17.0,57,7.3,11.9
+Montmorency,MONTMORENCY,807500,807500,normal,22.0,78,-4.6,4.9
+Montrose,MONTROSE,,,,,,,
+Moonee Ponds,MOONEE PONDS,624300,624300,normal,80.0,326,9.5,14.5
+Moorabbin,MOORABBIN,635000,635000,normal,27.0,97,-16.2,-17.5
+Moorabbin Airport,MOORABBIN AIRPORT,,,,,,,
+Mooroolbark,MOOROOLBARK,736000,736000,normal,31.0,137,12.9,3.7
+Mordialloc,MORDIALLOC,773500,773500,normal,32.0,125,15.4,22.8
+Mornington,MORNINGTON,810000,810000,normal,70.0,250,1.3,-14.7
+Mount Cottrell,MOUNT COTTRELL,,,,,,,
+Mount Dandenong,MOUNT DANDENONG,,,,,,,
+Mount Eliza,MOUNT ELIZA,695000,695000,normal,14.0,48,-21.2,-14.7
+Mount Evelyn,MOUNT EVELYN,813900,813900,fewer_than_10_sales,2.0,13,-1,14.2
+Mount Martha,MOUNT MARTHA,880000,880000,fewer_than_10_sales,5.0,29,-1.2,16.6
+Mount Waverley,MOUNT WAVERLEY,1164000,1164000,normal,58.0,217,7.3,3
+Mulgrave,MULGRAVE,824000,824000,normal,12.0,44,-2.3,-24.6
+Murrumbeena,MURRUMBEENA,630300,630300,normal,60.0,214,-22.7,83.2
+Nar Nar Goon,NAR NAR GOON,,,,,,,
+Nar Nar Goon North,NAR NAR GOON NORTH,,,,,,,
+Narre Warren,NARRE WARREN,653000,653000,normal,30.0,107,15.8,7.8
+Narre Warren North,NARRE WARREN NORTH,,,,,,,
+Narre Warren South,NARRE WARREN SOUTH,670000,670000,fewer_than_10_sales,3.0,19,11.9,-9.5
+Newport,NEWPORT,722500,722500,normal,32.0,123,-0.1,-4.3
+Niddrie,NIDDRIE,761000,761000,normal,19.0,50,1.1,-0.9
+Noble Park,NOBLE PARK,571500,571500,normal,98.0,349,3.9,-1.5
+Noble Park North,NOBLE PARK NORTH,570000,570000,fewer_than_10_sales,2.0,12,-6.9,2
+North Melbourne,NORTH MELBOURNE,599000,599000,normal,102.0,389,18,7
+North Warrandyte,NORTH WARRANDYTE,,,,,,,
+Northcote,NORTHCOTE,670000,670000,normal,88.0,282,8.1,-3.6
+Notting Hill,NOTTING HILL,445000,445000,normal,15.0,51,3,-4.9
+Nunawading,NUNAWADING,843500,843500,normal,36.0,107,9.2,33.3
+Oak Park,OAK PARK,749500,749500,normal,28.0,107,16.3,8.6
+Oakleigh,OAKLEIGH,593300,593300,normal,30.0,117,-0.3,-4.8
+Oakleigh East,OAKLEIGH EAST,820000,820000,normal,18.0,63,15.2,-2.1
+Oakleigh South,OAKLEIGH SOUTH,885000,885000,normal,18.0,80,24.3,1.3
+Officer,OFFICER,552500,552500,fewer_than_10_sales,6.0,32,-1.3,-4.8
+Officer South,OFFICER SOUTH,,,,,,,
+Ormond,ORMOND,503000,503000,normal,57.0,165,-18.7,-21.4
+Pakenham,PAKENHAM,550000,550000,normal,58.0,234,10.6,1.8
+Pakenham South,PAKENHAM SOUTH,,,,,,,
+Pakenham Upper,PAKENHAM UPPER,,,,,,,
+Panton Hill,PANTON HILL,,,,,,,
+Park Orchards,PARK ORCHARDS,,,,,,,
+Parkdale,PARKDALE,806500,806500,normal,50.0,152,3.4,3.4
+Parkville,PARKVILLE,492000,492000,normal,33.0,110,-12.1,-3.5
+Pascoe Vale,PASCOE VALE,690000,690000,normal,106.0,388,7.4,-0.4
+Pascoe Vale South,PASCOE VALE SOUTH,667500,667500,normal,14.0,60,2.7,9.4
+Patterson Lakes,PATTERSON LAKES,677500,677500,normal,12.0,65,-3.2,-6.6
+Pearcedale,PEARCEDALE,787500,787500,fewer_than_10_sales,2.0,6,3.3,5.9
+Plenty,PLENTY,,,,,,,
+Plumpton,PLUMPTON,,,,,,,
+Point Cook,POINT COOK,623000,623000,normal,21.0,86,14.6,3.8
+Point Leo,POINT LEO,,,,,,,
+Port Melbourne,PORT MELBOURNE,760000,760000,normal,95.0,371,1,2.4
+Portsea,PORTSEA,,,,,,,
+Prahran,PRAHRAN,445000,445000,normal,94.0,409,-23.9,-7.3
+Preston,PRESTON,620000,620000,normal,145.0,573,3,0
+Princes Hill,PRINCES HILL,,,,,,,
+Ravenhall,RAVENHALL,,,,,,,
+Red Hill,RED HILL,,,,,,,
+Red Hill South,RED HILL SOUTH,,,,,,,
+Research,RESEARCH,,,,,,,
+Reservoir,RESERVOIR,670000,670000,normal,187.0,735,1.9,-0.6
+Richmond,RICHMOND,582500,582500,normal,158.0,592,1.7,-7.9
+Ringwood,RINGWOOD,663000,663000,normal,85.0,363,6.9,-0.4
+Ringwood East,RINGWOOD EAST,735500,735500,normal,47.0,128,0.8,-8.3
+Ringwood North,RINGWOOD NORTH,855000,855000,fewer_than_10_sales,4.0,19,-0.6,-2.3
+Ripponlea,RIPPONLEA,460000,460000,fewer_than_10_sales,9.0,29,-27,-35.5
+Rockbank,ROCKBANK,565000,565000,fewer_than_10_sales,9.0,25,20.2,-3.4
+Rosanna,ROSANNA,750000,750000,normal,10.0,79,-10.7,-11.8
+Rosebud,ROSEBUD,757500,757500,normal,13.0,85,11.4,9.8
+Rowville,ROWVILLE,788800,788800,normal,27.0,94,8.1,-2.3
+Roxburgh Park,ROXBURGH PARK,545500,545500,fewer_than_10_sales,6.0,35,12.9,18.6
+Rye,RYE,578800,578800,fewer_than_10_sales,4.0,14,-36.2,-6.7
+Safety Beach,SAFETY BEACH,855000,855000,normal,10.0,54,-20.5,-0.9
+Sandhurst,SANDHURST,872000,872000,fewer_than_10_sales,2.0,12,23.7,7.7
+Sandringham,SANDRINGHAM,746200,746200,normal,50.0,183,-6.7,-13
+Sassafras,SASSAFRAS,,,,,,,
+Scoresby,SCORESBY,707000,707000,fewer_than_10_sales,8.0,32,-3.8,7.1
+Seabrook,SEABROOK,,,,,,,
+Seaford,SEAFORD,743500,743500,normal,64.0,223,19,7.2
+Seaholme,SEAHOLME,,,,,,,
+Seddon,SEDDON,539400,539400,normal,12.0,29,10.1,-5.8
+Selby,SELBY,,,,,,,
+Seville,SEVILLE,,,,,,,
+Seville East,SEVILLE EAST,,,,,,,
+Sherbrooke,SHERBROOKE,,,,,,,
+Shoreham,SHOREHAM,,,,,,,
+Silvan,SILVAN,,,,,,,
+Skye,SKYE,632500,632500,fewer_than_10_sales,9.0,30,13.5,6.5
+Somers,SOMERS,,,,,,,
+Somerton,SOMERTON,,,,,,,
+Somerville,SOMERVILLE,637500,637500,normal,19.0,68,-0.4,2.8
+Sorrento,SORRENTO,,,,,,,
+South Kingsville,SOUTH KINGSVILLE,1030000,1030000,fewer_than_10_sales,4.0,25,33.8,47.1
+South Melbourne,SOUTH MELBOURNE,630000,630000,normal,79.0,326,-2.3,-6
+South Morang,SOUTH MORANG,595000,595000,normal,25.0,92,10.2,6.3
+South Wharf,SOUTH WHARF,,,,,,,
+South Yarra,SOUTH YARRA,594500,594500,normal,245.0,920,-0.9,4.3
+Southbank,SOUTHBANK,587500,587500,normal,306.0,1165,-0.4,-0.8
+Spotswood,SPOTSWOOD,1150000,1150000,normal,11.0,23,52.3,25
+Springvale,SPRINGVALE,680000,680000,normal,36.0,128,7.5,10.6
+Springvale South,SPRINGVALE SOUTH,681500,681500,normal,14.0,49,-3.3,10.8
+St Albans,ST ALBANS,560000,560000,normal,78.0,264,12.6,4.7
+St Andrews,ST ANDREWS,,,,,,,
+St Andrews Beach,ST ANDREWS BEACH,,,,,,,
+St Helena,ST HELENA,,,,,,,
+St Kilda,ST KILDA,522000,522000,normal,207.0,737,-0.6,4.4
+St Kilda East,ST KILDA EAST,600300,600300,normal,92.0,332,5.3,7.6
+St Kilda West,ST KILDA WEST,496000,496000,normal,25.0,89,-1.4,-23.1
+Strathmore,STRATHMORE,717500,717500,fewer_than_10_sales,8.0,44,-1.3,1.7
+Strathmore Heights,STRATHMORE HEIGHTS,,,,,,,
+Strathtulloh,STRATHTULLOH,,,,,,,
+Sunbury,SUNBURY,510000,510000,normal,54.0,149,-3.8,-0.5
+Sunshine,SUNSHINE,530000,530000,normal,17.0,77,5.6,0.1
+Sunshine North,SUNSHINE NORTH,702500,702500,normal,34.0,108,16.5,17.1
+Sunshine West,SUNSHINE WEST,600000,600000,normal,21.0,87,3.4,8.1
+Surrey Hills,SURREY HILLS,916000,916000,normal,39.0,130,5.9,7.8
+Sydenham,SYDENHAM,547600,547600,normal,36.0,104,12.3,16.5
+Tarneit,TARNEIT,457800,457800,normal,24.0,82,-0.5,-7.5
+Taylors Hill,TAYLORS HILL,600000,600000,fewer_than_10_sales,5.0,13,6.7,-0.8
+Taylors Lakes,TAYLORS LAKES,572500,572500,fewer_than_10_sales,5.0,16,9,14.5
+Tecoma,TECOMA,,,,,,,
+Templestowe,TEMPLESTOWE,1069000,1069000,normal,30.0,98,18.8,16.1
+Templestowe Lower,TEMPLESTOWE LOWER,1048000,1048000,normal,17.0,72,27,16.4
+The Basin,THE BASIN,,,,,,,
+Thomastown,THOMASTOWN,575000,575000,normal,28.0,119,21,-2.5
+Thornbury,THORNBURY,674000,674000,normal,84.0,269,18.6,12.3
+Thornhill Park,THORNHILL PARK,,,,,,,
+Toolern Vale,TOOLERN VALE,,,,,,,
+Toorak,TOORAK,917000,917000,normal,85.0,308,13.9,-27.5
+Tootgarook,TOOTGAROOK,,,,,,,
+Tottenham,TOTTENHAM,,,,,,,
+Travancore,TRAVANCORE,380000,380000,normal,37.0,99,4.1,6.3
+Tremont,TREMONT,,,,,,,
+Truganina,TRUGANINA,680000,680000,normal,17.0,60,52.1,28.9
+Tullamarine,TULLAMARINE,535000,535000,normal,23.0,106,-4.5,-10.5
+Tyabb,TYABB,662500,662500,fewer_than_10_sales,5.0,15,0.4,8.6
+Upper Ferntree Gully,UPPER FERNTREE GULLY,659000,659000,fewer_than_10_sales,1.0,10,31,-0.2
+Upper Plenty,UPPER PLENTY,,,,,,,
+Upwey,UPWEY,,,,,,,
+Vermont,VERMONT,876500,876500,normal,14.0,62,-3.7,4
+Vermont South,VERMONT SOUTH,797500,797500,fewer_than_10_sales,6.0,37,-26.1,-22.2
+Viewbank,VIEWBANK,710000,710000,fewer_than_10_sales,5.0,20,0.7,-21.1
+Wallan,WALLAN,478500,478500,fewer_than_10_sales,6.0,31,6.3,-1.2
+Wandin North,WANDIN NORTH,,,,,,,
+Wantirna,WANTIRNA,740000,740000,normal,10.0,57,5.9,-2.8
+Wantirna South,WANTIRNA SOUTH,400000,400000,normal,13.0,73,-20,-22.3
+Warburton,WARBURTON,,,,,,,
+Warrandyte,WARRANDYTE,,,,,,,
+Warrandyte South,WARRANDYTE SOUTH,,,,,,,
+Warranwood,WARRANWOOD,,,,,,,
+Waterways,WATERWAYS,,,,,,,
+Watsonia,WATSONIA,840000,840000,fewer_than_10_sales,9.0,28,5,20.9
+Watsonia North,WATSONIA NORTH,,,,,,,
+Wattle Glen,WATTLE GLEN,,,,,,,
+Weir Views,WEIR VIEWS,,,,,,,
+Werribee,WERRIBEE,485000,485000,normal,63.0,221,15.6,6.1
+Werribee South,WERRIBEE SOUTH,460000,460000,fewer_than_10_sales,9.0,41,4.5,-8
+Wesburn,WESBURN,,,,,,,
+West Footscray,WEST FOOTSCRAY,380000,380000,normal,28.0,163,-33.6,-20.3
+West Melbourne,WEST MELBOURNE,572500,572500,normal,75.0,317,10.6,4.1
+Westmeadows,WESTMEADOWS,630000,630000,normal,14.0,54,5.7,3.3
+Wheelers Hill,WHEELERS HILL,1022500,1022500,fewer_than_10_sales,5.0,17,20.6,-17.2
+Wildwood,WILDWOOD,,,,,,,
+Williams Landing,WILLIAMS LANDING,521000,521000,fewer_than_10_sales,4.0,28,17.9,24.6
+Williamstown,WILLIAMSTOWN,620000,620000,normal,40.0,126,-15.1,-29.5
+Williamstown North,WILLIAMSTOWN NORTH,925000,925000,normal,10.0,29,42.5,8.8
+Windsor,WINDSOR,522500,522500,normal,60.0,185,-5.9,-2.5
+Wollert,WOLLERT,520000,520000,normal,17.0,78,10.8,-0.7
+Wonga Park,WONGA PARK,,,,,,,
+Woodstock,WOODSTOCK,,,,,,,
+Woori Yallock,WOORI YALLOCK,,,,,,,
+Wyndham Vale,WYNDHAM VALE,510000,510000,normal,15.0,56,9.7,6.3
+Yallambie,YALLAMBIE,,,,,,,
+Yan Yean,YAN YEAN,,,,,,,
+Yarra Glen,YARRA GLEN,,,,,,,
+Yarra Junction,YARRA JUNCTION,597500,597500,fewer_than_10_sales,6.0,16,,1.3
+Yarrambat,YARRAMBAT,,,,,,,
+Yarraville,YARRAVILLE,720000,720000,normal,32.0,123,0.7,19
