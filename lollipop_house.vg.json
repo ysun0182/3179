@@ -1,0 +1,103 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+
+  "title": "Top 10 Most Expensive Suburbs for Houses",
+
+  "width": 550,
+  "height": 350,
+
+  "data": {
+    "url": "data/house_q4_2025_melbourne.csv"
+  },
+
+  "transform": [
+    {
+      "calculate": "toNumber(datum.median_price_q4_2025)",
+      "as": "price"
+    },
+    {
+      "filter": "datum.price > 0"
+    },
+    {
+      "window": [
+        {
+          "op": "row_number",
+          "as": "rank"
+        }
+      ],
+      "sort": [
+        {
+          "field": "price",
+          "order": "descending"
+        }
+      ]
+    },
+    {
+      "filter": "datum.rank <= 10"
+    }
+  ],
+
+  "layer": [
+    {
+      "mark": {
+        "type": "rule",
+        "color": "#08519c"
+      },
+      "encoding": {
+        "y": {
+          "field": "suburb",
+          "type": "nominal",
+          "sort": {
+            "field": "price",
+            "order": "descending"
+          },
+          "title": "Suburb"
+        },
+        "x": {
+          "field": "price",
+          "type": "quantitative",
+          "title": "Median House Price (AUD)"
+        },
+        "x2": {
+          "value": 0
+        }
+      }
+    },
+
+    {
+      "mark": {
+        "type": "point",
+        "filled": true,
+        "size": 120,
+        "color": "blue"
+      },
+      "encoding": {
+        "y": {
+          "field": "suburb",
+          "type": "nominal",
+          "sort": {
+            "field": "price",
+            "order": "descending"
+          }
+        },
+        "x": {
+          "field": "price",
+          "type": "quantitative"
+        },
+        "tooltip": [
+          {
+            "field": "suburb",
+            "type": "nominal",
+            "title": "Suburb"
+          },
+          {
+            "field": "price",
+            "type": "quantitative",
+            "title": "House Price",
+            "format": "$,.0f"
+          }
+        ]
+      }
+    }
+  ]
+}
