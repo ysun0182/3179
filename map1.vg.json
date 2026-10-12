@@ -4,7 +4,9 @@
   "width": 1200,
   "height": 700,
 
-  "projection": {"type": "mercator"},
+  "projection": {
+    "type": "mercator"
+  },
 
   "params": [
     {
@@ -12,8 +14,8 @@
       "value": "House",
       "bind": {
         "input": "select",
-        "options": ["House","Unit"],
-        "labels": ["House","Unit"],
+        "options": ["House", "Unit"],
+        "labels": ["House", "Unit"],
         "name": "Property Type: "
       }
     }
@@ -21,7 +23,10 @@
 
   "data": {
     "url": "data/melbourne_suburbs.geojson",
-    "format": {"type": "json","property": "features"}
+    "format": {
+      "type": "json",
+      "property": "features"
+    }
   },
 
   "transform": [
@@ -55,27 +60,381 @@
     }
   ],
 
-  "mark": {"type": "geoshape"},
-
-  "encoding": {
-    "color": {
-      "field": "Median Price",
-      "type": "quantitative",
-      "title": "Median Price (AUD)",
-      "scale": {
-        "type": "threshold",
-        "domain": [600000,800000,1000000,1300000,1700000,2500000],
-        "scheme": "blues"
+  "layer": [
+    {
+      "mark": {
+        "type": "geoshape"
       },
-      "legend": {
-        "format": "$,.0f"
+
+      "encoding": {
+        "color": {
+          "field": "Median Price",
+          "type": "quantitative",
+          "title": "Median Price (AUD)",
+          "scale": {
+            "type": "threshold",
+            "domain": [
+              600000,
+              800000,
+              1000000,
+              1300000,
+              1700000,
+              2500000
+            ],
+            "scheme": "blues"
+          },
+
+          "legend": {
+            "format": "$,.0f"
+          }
+        },
+
+        "tooltip": [
+          {
+            "field": "properties.suburb",
+            "type": "nominal",
+            "title": "Suburb"
+          },
+          {
+            "field": "Median Price",
+            "type": "quantitative",
+            "title": "Median Price",
+            "format": "$,.0f"
+          }
+        ]
       }
-      
     },
 
-    "tooltip": [
-      { "field": "properties.suburb", "type": "nominal","title": "Suburb"},
-      { "field": "Median Price", "type": "quantitative","title": "Median Price", "format": "$,.0f"}
-    ]
-  }
+    {
+      "data": {
+        "values": [
+          {
+            "region": "Inner",
+            "order": 1,
+            "longitude": 144.83,
+            "latitude": -37.82
+          },
+          {
+            "region": "Inner",
+            "order": 2,
+            "longitude": 144.87,
+            "latitude": -37.72
+          },
+          {
+            "region": "Inner",
+            "order": 3,
+            "longitude": 144.98,
+            "latitude": -37.68
+          },
+          {
+            "region": "Inner",
+            "order": 4,
+            "longitude": 145.10,
+            "latitude": -37.72
+          },
+          {
+            "region": "Inner",
+            "order": 5,
+            "longitude": 145.15,
+            "latitude": -37.82
+          },
+          {
+            "region": "Inner",
+            "order": 6,
+            "longitude": 145.10,
+            "latitude": -37.92
+          },
+          {
+            "region": "Inner",
+            "order": 7,
+            "longitude": 144.98,
+            "latitude": -37.96
+          },
+          {
+            "region": "Inner",
+            "order": 8,
+            "longitude": 144.87,
+            "latitude": -37.92
+          },
+          {
+            "region": "Inner",
+            "order": 9,
+            "longitude": 144.83,
+            "latitude": -37.82
+          },
+
+          {
+            "region": "Mornington",
+            "order": 1,
+            "longitude": 144.68,
+            "latitude": -38.38
+          },
+          {
+            "region": "Mornington",
+            "order": 2,
+            "longitude": 144.73,
+            "latitude": -38.29
+          },
+          {
+            "region": "Mornington",
+            "order": 3,
+            "longitude": 144.86,
+            "latitude": -38.24
+          },
+          {
+            "region": "Mornington",
+            "order": 4,
+            "longitude": 145.00,
+            "latitude": -38.28
+          },
+          {
+            "region": "Mornington",
+            "order": 5,
+            "longitude": 145.06,
+            "latitude": -38.37
+          },
+          {
+            "region": "Mornington",
+            "order": 6,
+            "longitude": 145.02,
+            "latitude": -38.46
+          },
+          {
+            "region": "Mornington",
+            "order": 7,
+            "longitude": 144.89,
+            "latitude": -38.51
+          },
+          {
+            "region": "Mornington",
+            "order": 8,
+            "longitude": 144.74,
+            "latitude": -38.47
+          },
+          {
+            "region": "Mornington",
+            "order": 9,
+            "longitude": 144.68,
+            "latitude": -38.38
+          }
+        ]
+      },
+
+      "transform": [
+        {
+          "filter": "Property_Type == 'House'"
+        }
+      ],
+
+      "mark": {
+        "type": "line",
+        "stroke": "red",
+        "strokeWidth": 3
+      },
+
+      "encoding": {
+        "longitude": {
+          "field": "longitude",
+          "type": "quantitative"
+        },
+
+        "latitude": {
+          "field": "latitude",
+          "type": "quantitative"
+        },
+
+        "detail": {
+          "field": "region"
+        },
+
+        "order": {
+          "field": "order",
+          "type": "ordinal"
+        }
+      }
+    },
+
+    {
+      "data": {
+        "values": [
+          {
+            "label": "Inner Melbourne",
+            "longitude": 144.77,
+            "latitude": -38.02
+          },
+          {
+            "label": "Mornington Peninsula",
+            "longitude": 144.78,
+            "latitude": -38.20
+          }
+        ]
+      },
+
+      "transform": [
+        {
+          "filter": "Property_Type == 'House'"
+        }
+      ],
+
+      "mark": {
+        "type": "text",
+        "fontSize": 16,
+        "fontWeight": "bold",
+        "color": "red",
+        "align": "center"
+      },
+
+      "encoding": {
+        "longitude": {
+          "field": "longitude",
+          "type": "quantitative"
+        },
+
+        "latitude": {
+          "field": "latitude",
+          "type": "quantitative"
+        },
+
+        "text": {
+          "field": "label"
+        }
+      }
+    },
+
+    {
+      "data": {
+        "values": [
+          {
+            "region": "Inner Eastern",
+            "order": 1,
+            "longitude": 144.85,
+            "latitude": -37.82
+          },
+          {
+            "region": "Inner Eastern",
+            "order": 2,
+            "longitude": 144.90,
+            "latitude": -37.71
+          },
+          {
+            "region": "Inner Eastern",
+            "order": 3,
+            "longitude": 145.05,
+            "latitude": -37.67
+          },
+          {
+            "region": "Inner Eastern",
+            "order": 4,
+            "longitude": 145.20,
+            "latitude": -37.71
+          },
+          {
+            "region": "Inner Eastern",
+            "order": 5,
+            "longitude": 145.25,
+            "latitude": -37.82
+          },
+          {
+            "region": "Inner Eastern",
+            "order": 6,
+            "longitude": 145.20,
+            "latitude": -37.93
+          },
+          {
+            "region": "Inner Eastern",
+            "order": 7,
+            "longitude": 145.05,
+            "latitude": -37.97
+          },
+          {
+            "region": "Inner Eastern",
+            "order": 8,
+            "longitude": 144.90,
+            "latitude": -37.93
+          },
+          {
+            "region": "Inner Eastern",
+            "order": 9,
+            "longitude": 144.85,
+            "latitude": -37.82
+          }
+        ]
+      },
+
+      "transform": [
+        {
+          "filter": "Property_Type == 'Unit'"
+        }
+      ],
+
+      "mark": {
+        "type": "line",
+        "stroke": "red",
+        "strokeWidth": 3
+      },
+
+      "encoding": {
+        "longitude": {
+          "field": "longitude",
+          "type": "quantitative"
+        },
+
+        "latitude": {
+          "field": "latitude",
+          "type": "quantitative"
+        },
+
+        "detail": {
+          "field": "region"
+        },
+
+        "order": {
+          "field": "order",
+          "type": "ordinal"
+        }
+      }
+    },
+
+    {
+      "data": {
+        "values": [
+          {
+            "label": "Inner & Eastern Melbourne",
+            "longitude": 144.79,
+            "latitude": -38.04
+          }
+        ]
+      },
+
+      "transform": [
+        {
+          "filter": "Property_Type == 'Unit'"
+        }
+      ],
+
+      "mark": {
+        "type": "text",
+        "fontSize": 16,
+        "fontWeight": "bold",
+        "color": "red",
+        "align": "center"
+      },
+
+      "encoding": {
+        "longitude": {
+          "field": "longitude",
+          "type": "quantitative"
+        },
+
+        "latitude": {
+          "field": "latitude",
+          "type": "quantitative"
+        },
+
+        "text": {
+          "field": "label"
+        }
+      }
+    }
+  ]
 }

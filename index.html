@@ -44,6 +44,16 @@
             reflecting the much lower presence or transaction activity of units in many outer suburban areas.
         </p>
 
+        <div>
+            <img src="images/toorak.jpg" alt="Toorak" width="300">
+            <p>"Chastelton", characteristic of many 1880s Victorian houses built in Toorak area</p>
+        </div>
+
+        <div>
+            <img src="images/portsea.jpg" alt="Portsea" width="300">
+            <p>Millionaires Walk, Portsea</p>
+        </div>
+
 
         <h3>Most Expensive House and Unit Suburbs</h3>
 
@@ -132,6 +142,25 @@
             This reinforces the pattern observed in the map: higher house prices do not necessarily correspond to greater market activity.
         </p>
 
+        <h3>Is Market Activity Associated with Price Growth?</h3>
+
+        <p>
+            This scatter plot examines the relationship between house sales activity and annual house price change across Melbourne suburbs in Q4 2025. 
+            Each point represents one suburb, while the red regression line shows the overall linear relationship between sales activity and price growth.
+        </p>
+
+        <div id="scatterplot-activitygrowth"></div>
+
+        <p>
+            The regression line is almost flat, suggesting little clear linear association between house sales activity and annual price growth. 
+            However, the distribution of the points reveals another pattern. 
+            Suburbs with lower sales activity show a much wider range of annual price changes, 
+            including both substantial increases and decreases. 
+            In contrast, suburbs with higher sales activity are more concentrated within a narrower range of price changes. 
+            This suggests that more active housing markets tend to show less variation in annual price movements, 
+            while lower-activity suburbs experience more varied price changes.
+        </p>
+
     </div>
 
     <div>
@@ -175,6 +204,7 @@
         vegaEmbed('#connected_dotplots', "connected_dotplots.vg.json")
         vegaEmbed('#map2', 'map2.vg.json');
         vegaEmbed('#jitter_house_sales', 'jitter_house_sales.vg.json');
+        vegaEmbed('#scatterplot-activitygrowth', 'scatterplot_activitygrowth.vg.json');
 
     </script>
 

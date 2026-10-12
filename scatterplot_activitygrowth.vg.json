@@ -1,0 +1,94 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": "House Sales Activity and Price Growth (Q4 2025)",
+  "width": 700,
+  "height": 450,
+
+  "data": {
+    "url": "data/house_q4_2025_melbourne.csv"
+  },
+
+  "transform": [
+    {
+      "calculate": "toNumber(datum.sales_q4_2025)",
+      "as": "sales"
+    },
+    {
+      "calculate": "toNumber(datum.change_yoy_pct)",
+      "as": "growth"
+    },
+    {
+      "filter": "isValid(datum.sales) && isValid(datum.growth)"
+    }
+  ],
+
+  "layer": [
+    {
+      "mark": {
+        "type": "circle",
+        "size": 70,
+        "opacity": 0.6
+      },
+
+      "encoding": {
+        "x": {
+          "field": "sales",
+          "type": "quantitative",
+          "title": "House Sales (Q4 2025)"
+        },
+
+        "y": {
+          "field": "growth",
+          "type": "quantitative",
+          "title": "Annual Price Change (%)"
+        },
+
+        "tooltip": [
+          {
+            "field": "suburb",
+            "type": "nominal",
+            "title": "Suburb"
+          },
+          {
+            "field": "sales",
+            "type": "quantitative",
+            "title": "House Sales"
+          },
+          {
+            "field": "growth",
+            "type": "quantitative",
+            "title": "Annual Price Change",
+            "format": ".1f"
+          }
+        ]
+      }
+    },
+
+    {
+      "transform": [
+        {
+          "regression": "growth",
+          "on": "sales"
+        }
+      ],
+
+      "mark": {
+        "type": "line",
+        "color": "red",
+        "strokeWidth": 2
+      },
+
+      "encoding": {
+        "x": {
+          "field": "sales",
+          "type": "quantitative"
+        },
+
+        "y": {
+          "field": "growth",
+          "type": "quantitative"
+        }
+      }
+    }
+  ]
+}
