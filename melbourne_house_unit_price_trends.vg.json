@@ -1,0 +1,141 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "House and Unit Price Trends Across Melbourne Suburbs (2015–2025)",
+    "subtitle": [
+      "Median of suburb-level median sale prices · Same 307 suburbs in both series throughout 2015–2025",
+      "Unweighted suburb summary; not the official overall Melbourne transaction median"
+    ],
+    "anchor": "start",
+    "fontSize": 18,
+    "subtitleFontSize": 11,
+    "subtitleColor": "#555",
+    "offset": 16
+  },
+  "width": 1000,
+  "height": 380,
+  "data": {
+    "url": "data/melbourne_house_unit_price_trends_2015_2025.csv"
+  },
+  "encoding": {
+    "x": {
+      "field": "year",
+      "type": "quantitative",
+      "title": "Year",
+      "scale": {
+        "domain": [
+          2015,
+          2025
+        ],
+        "nice": false,
+        "zero": false
+      },
+      "axis": {
+        "values": [
+          2015,
+          2016,
+          2017,
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023,
+          2024,
+          2025
+        ],
+        "format": "d",
+        "labelAngle": 0,
+        "grid": false
+      }
+    },
+    "y": {
+      "field": "median_suburb_price_aud",
+      "type": "quantitative",
+      "title": "Median of Suburb Median Prices (AUD)",
+      "scale": {
+        "zero": false
+      },
+      "axis": {
+        "format": "$~s",
+        "tickCount": 6
+      }
+    },
+    "color": {
+      "field": "property_type",
+      "type": "nominal",
+      "title": null,
+      "scale": {
+        "domain": [
+          "House",
+          "Unit"
+        ],
+        "range": [
+          "#2563eb",
+          "#dc2626"
+        ]
+      },
+      "legend": {
+        "orient": "top",
+        "direction": "horizontal",
+        "symbolType": "stroke",
+        "symbolStrokeWidth": 3,
+        "labelFontSize": 12
+      }
+    },
+    "detail": {
+      "field": "property_type",
+      "type": "nominal"
+    }
+  },
+  "layer": [
+    {
+      "mark": {
+        "type": "line",
+        "strokeWidth": 3,
+        "point": {
+          "filled": true,
+          "size": 58
+        }
+      },
+      "encoding": {
+        "tooltip": [
+          {
+            "field": "year",
+            "type": "quantitative",
+            "title": "Year",
+            "format": "d"
+          },
+          {
+            "field": "property_type",
+            "type": "nominal",
+            "title": "Property Type"
+          },
+          {
+            "field": "median_suburb_price_aud",
+            "type": "quantitative",
+            "title": "Median of Suburb Medians",
+            "format": "$,.0f"
+          },
+          {
+            "field": "suburb_count",
+            "type": "quantitative",
+            "title": "Suburbs in Sample",
+            "format": ".0f"
+          }
+        ]
+      }
+    }
+  ],
+  "config": {
+    "view": {
+      "stroke": null
+    },
+    "axis": {
+      "labelFontSize": 12,
+      "titleFontSize": 13,
+      "gridColor": "#e6ebf1"
+    },
+    "background": "white"
+  }
+}

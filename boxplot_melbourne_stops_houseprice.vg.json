@@ -1,0 +1,98 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": "Melbourne House Prices by Public Transport Stop Count (Q4 2025)",
+  "width": 500,
+  "height": 320,
+
+  "data": {
+    "url": "data/boxplot_melbourne_stops_houseprice.csv"
+  },
+
+  "transform": [
+    {
+      "calculate": "toNumber(datum.median_house_price_aud)",
+      "as": "house_price"
+    },
+    {
+      "calculate": "toNumber(datum.total_stops)",
+      "as": "stop_count"
+    },
+    {
+      "filter": "isValid(datum.house_price) && datum.house_price > 0 && isValid(datum.stop_count)"
+    },
+    {
+      "calculate": "datum.stop_count <= 35 ? '≤ 35 Stops' : '> 35 Stops'",
+      "as": "Stop Group"
+    }
+  ],
+
+  "mark": {
+    "type": "boxplot",
+    "extent": 1.5,
+    "size": 75
+  },
+
+  "encoding": {
+    "x": {
+      "field": "Stop Group",
+      "type": "nominal",
+      "sort": ["≤35 Stops", ">35 Stops"],
+      "title": "Public Transport Stops per Suburb"
+    },
+
+    "y": {
+      "field": "house_price",
+      "type": "quantitative",
+      "title": "Median House Price (AUD)",
+      "axis": {
+        "format": "$~s"
+      }
+    },
+
+    "color": {
+      "field": "Stop Group",
+      "type": "nominal",
+      "sort": ["≤ 35 Stops", ">35 Stops"],
+      "scale": {
+        "domain": ["≤ 35 Stops", "> 35 Stops"],
+        "range": ["#e41a1c", "#3182bd"]
+      },
+      "legend": null
+    },
+
+    "tooltip": [
+      {
+        "field": "Stop Group",
+        "type": "nominal",
+        "title": "Group"
+      },
+      {
+        "field": "house_price",
+        "type": "quantitative",
+        "title": "Median House Price",
+        "format": "$,.0f"
+      },
+      {
+        "field": "stop_count",
+        "type": "quantitative",
+        "title": "Total Stops"
+      },
+      {
+        "field": "stop_density_per_km2",
+        "type": "quantitative",
+        "title": "Stops per km²",
+        "format": ".2f"
+      }
+    ]
+  },
+
+  "config": {
+    "axis": {
+      "labelFontSize": 12,
+      "titleFontSize": 13
+    },
+    "view": {
+      "stroke": null
+    }
+  }
+}

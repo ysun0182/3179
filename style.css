@@ -1,0 +1,470 @@
+/* FIT3179 DV2 — Melbourne Housing Market
+   Final page styling */
+
+:root {
+  --page: #f3f6fa;
+  --paper: #ffffff;
+  --ink: #172b3d;
+  --muted: #546579;
+  --accent: #235b86;
+  --accent-soft: #e9f1f7;
+  --line: #dce5ed;
+  --max-page: 1280px;
+  --max-copy: 850px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: var(--page);
+  color: var(--ink);
+  font-family: "Aptos", "Segoe UI", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Header */
+
+header {
+  background: #152c44;
+  color: #ffffff;
+  padding: clamp(44px, 6vw, 84px) 24px clamp(38px, 5vw, 60px);
+  text-align: center;
+  border-bottom: 5px solid #6299c6;
+}
+
+header h1 {
+  margin: 0 auto 12px;
+  max-width: 1100px;
+  font-size: clamp(34px, 4vw, 54px);
+  font-weight: 750;
+  line-height: 1.15;
+  letter-spacing: -0.035em;
+}
+
+header p {
+  margin: 0 auto;
+  max-width: 780px;
+  color: #dce7f1;
+  font-size: clamp(15px, 1.4vw, 19px);
+  line-height: 1.6;
+}
+
+/* Main layout */
+
+main {
+  width: min(var(--max-page), calc(100% - 56px));
+  margin: 42px auto 0;
+}
+
+main section {
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  padding: clamp(20px, 3.8vw, 48px);
+  margin-bottom: 32px;
+  box-shadow: 0 5px 24px rgba(22, 43, 65, 0.035);
+}
+
+h2,
+h3 {
+  color: var(--ink);
+}
+
+h2 {
+  font-size: clamp(23px, 2.4vw, 32px);
+  line-height: 1.28;
+  letter-spacing: -0.025em;
+  margin: 0 0 34px;
+  padding-bottom: 18px;
+  border-bottom: 2px solid var(--line);
+}
+
+h3 {
+  font-size: clamp(18px, 1.7vw, 22px);
+  line-height: 1.35;
+  letter-spacing: -0.015em;
+  font-weight: 680;
+  margin: 38px 0 16px;
+}
+
+section h2 + h3 {
+  margin-top: 0;
+}
+
+p {
+  max-width: var(--max-copy);
+  margin: 0 0 20px;
+}
+
+/* Method notes / definitions */
+
+.method-note {
+  font-size: 15px;
+  color: #000000;
+  line-height: 1.8;
+  background: #f7f9fc;
+  border-left: 3px solid #9ab4c9;
+  padding: 12px 16px;
+  margin: 6px 0 22px;
+  max-width: 950px;
+}
+
+.method-note strong {
+  color: #000000;
+  font-weight: 700;
+}
+
+/* Generic chart containers */
+
+.chart {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 14px 0 30px;
+  padding: 18px 10px;
+  min-width: 0;
+  width: 100%;
+}
+
+.chart .vega-embed {
+  max-width: 100%;
+  min-width: 0;
+}
+
+.chart .vega-embed svg,
+.chart .vega-embed canvas {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Short chart descriptions */
+
+.chart-description {
+  max-width: 900px;
+  margin: -4px auto 34px;
+  font-size: 17px;
+  line-height: 1.85;
+  font-weight: 400;
+  color: #000000;
+  text-align: left;
+}
+
+/* Lollipop row */
+
+.lollipop-row {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 24px;
+  align-items: start;
+  width: 100%;
+}
+
+.lollipop-item {
+  min-width: 0;
+}
+
+.lollipop-row .chart {
+  width: 100%;
+  min-width: 0;
+  margin: 0;
+  padding: 10px 0;
+}
+
+.lollipop-item .chart-description {
+  max-width: 100%;
+  margin: 8px 0 22px;
+  padding: 0 8px;
+  font-size: 17px;
+  line-height: 1.85;
+  color: #000000;
+}
+
+/* Box plot + side description */
+
+.boxplot-layout {
+  display: flex;
+  flex-wrap: nowrap;              /* force side by side */
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 40px;
+  width: 100%;
+}
+
+.boxplot-layout .chart {
+  flex: 1 1 auto;
+  width: auto;
+  max-width: none;
+  margin: 0;
+  justify-content: flex-start;
+}
+
+.boxplot-description {
+  flex: 0 0 420px;
+  min-width: 420px;
+  max-width: 420px;
+  font-size: 17px;
+  line-height: 1.9;
+  color: #000000;
+}
+
+.boxplot-description p {
+  margin: 0 0 16px;
+  max-width: 100%;
+}
+
+.boxplot-description p:last-child {
+  margin-bottom: 0;
+}
+
+/* Sources */
+
+#sources ul {
+  max-width: 1020px;
+  padding-left: 22px;
+  margin: 0;
+  overflow-wrap: anywhere;
+}
+
+#sources li {
+  padding: 4px 0;
+}
+
+a {
+  color: var(--accent);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+
+a:hover {
+  color: #123d60;
+}
+
+/* Footer */
+
+footer {
+  padding: 24px;
+  color: var(--muted);
+  text-align: center;
+  font-size: 13px;
+}
+
+footer p {
+  margin: 0 auto;
+}
+
+/* Responsive */
+
+@media (max-width: 850px) {
+  .lollipop-row {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+}
+
+@media (max-width: 760px) {
+  main {
+    width: calc(100% - 24px);
+    margin-top: 18px;
+  }
+
+  main section {
+    margin-bottom: 18px;
+    border-radius: 10px;
+  }
+
+  h2 {
+    margin-bottom: 24px;
+  }
+
+  h3 {
+    margin-top: 28px;
+  }
+
+  .chart {
+    padding: 12px 0;
+    margin-bottom: 18px;
+  }
+
+  .chart-description {
+    font-size: 16px;
+  }
+
+  .method-note {
+    font-size: 14px;
+  }
+
+  /* keep box plot side by side even on smaller screens */
+  .boxplot-layout {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    gap: 24px;
+  }
+
+  .boxplot-description {
+    flex: 0 0 360px;
+    min-width: 360px;
+    max-width: 360px;
+    font-size: 16px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+/* Left-align descriptions for regular charts */
+
+main section > .chart-description {
+    margin-left: 0;
+    margin-right: 0;
+    text-align: left;
+}
+
+
+/* Key statistics beneath the header */
+
+.key-stats {
+    width: min(1280px, calc(100% - 56px));
+    margin: 32px auto 0;
+    padding: 26px 0;
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 0;
+    border-top: 1px solid #172b3d;
+    border-bottom: 1px solid #172b3d;
+}
+
+.stat-item {
+    padding: 0 24px;
+    border-right: 1px solid #d0d7df;
+}
+
+.stat-item:first-child {
+    padding-left: 0;
+}
+
+.stat-item:last-child {
+    border-right: none;
+}
+
+.stat-number {
+    font-size: clamp(30px, 3vw, 44px);
+    font-weight: 750;
+    line-height: 1.15;
+    letter-spacing: -0.035em;
+    color: #172b3d;
+    margin-bottom: 12px;
+}
+
+.stat-positive {
+    color: #176b50;
+}
+
+.stat-label {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #35475a;
+}
+
+@media (max-width: 760px) {
+    .key-stats {
+        width: calc(100% - 24px);
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        row-gap: 24px;
+    }
+
+    .stat-item {
+        padding: 0 14px;
+    }
+
+    .stat-item:nth-child(2) {
+        border-right: none;
+    }
+
+    .stat-item:nth-child(3) {
+        padding-left: 0;
+    }
+}
+
+
+/* Sources and Data Processing side by side */
+
+.sources-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    align-items: start;
+}
+
+.sources-column,
+.processing-column {
+    min-width: 0;
+}
+
+.sources-column h2,
+.processing-column h2 {
+    margin-bottom: 25px;
+}
+
+.processing-column {
+    border-left: 1px solid #dce5ed;
+    padding-left: 40px;
+}
+
+.processing-column h4 {
+    font-size: 17px;
+    font-weight: 700;
+    color: #172b3d;
+    margin: 22px 0 8px;
+}
+
+.processing-column h4:first-of-type {
+    margin-top: 0;
+}
+
+.processing-column p {
+    font-size: 15px;
+    line-height: 1.8;
+    color: #000000;
+    margin: 0 0 18px;
+}
+
+.sources-column ul {
+    padding-left: 20px;
+    margin: 0;
+}
+
+.sources-column li {
+    margin-bottom: 12px;
+    font-size: 15px;
+    line-height: 1.7;
+}
+
+/* Responsive Sources layout */
+
+@media (max-width: 850px) {
+    .sources-layout {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    .processing-column {
+        border-left: none;
+        border-top: 1px solid #dce5ed;
+        padding-left: 0;
+        padding-top: 25px;
+    }
+}

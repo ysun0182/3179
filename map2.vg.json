@@ -1,8 +1,8 @@
+
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-
   "title": "House Price and Sales Activity by Suburb (Q4 2025)",
-  "width": 1200,
+  "width": 1000,
   "height": 700,
 
   "layer": [
@@ -14,7 +14,6 @@
           "property": "features"
         }
       },
-
       "mark": {
         "type": "geoshape",
         "fill": "#eeeeee",
@@ -22,34 +21,28 @@
         "strokeWidth": 0.5
       }
     },
-
     {
       "data": {
         "url": "data/map2_house_sales_q4_2025.csv"
       },
-
       "transform": [
         {
           "filter": "datum.sales_q4_2025 > 0 && datum.median_price_q4_2025 > 0"
         }
       ],
-
       "mark": {
         "type": "circle",
         "opacity": 1
       },
-
       "encoding": {
         "longitude": {
           "field": "longitude",
           "type": "quantitative"
         },
-
         "latitude": {
           "field": "latitude",
           "type": "quantitative"
         },
-
         "size": {
           "field": "sales_q4_2025",
           "type": "quantitative",
@@ -58,7 +51,6 @@
             "range": [25, 1000]
           }
         },
-
         "color": {
           "field": "median_price_q4_2025",
           "type": "quantitative",
@@ -69,8 +61,6 @@
             "range": ["#f7fbff", "#08306b"]
           }
         },
-  
-
         "tooltip": [
           {
             "field": "suburb",
@@ -89,6 +79,98 @@
             "title": "House Sales"
           }
         ]
+      }
+    },
+    {
+      "data": {
+        "url": "data/map2_house_sales_q4_2025.csv"
+      },
+      "transform": [
+        {
+          "filter": {
+            "field": "suburb",
+            "oneOf": [
+              "Tarneit",
+              "Craigieburn",
+              "Mickleham"
+            ]
+          }
+        }
+      ],
+      "mark": {
+        "type": "circle",
+        "filled": false,
+        "stroke": "#111111",
+        "strokeWidth": 2.5,
+        "size": 1400
+      },
+      "encoding": {
+        "longitude": {
+          "field": "longitude",
+          "type": "quantitative"
+        },
+        "latitude": {
+          "field": "latitude",
+          "type": "quantitative"
+        },
+        "tooltip": [
+          {
+            "field": "suburb",
+            "type": "nominal",
+            "title": "Suburb"
+          },
+          {
+            "field": "sales_q4_2025",
+            "type": "quantitative",
+            "title": "House Sales",
+            "format": ",.0f"
+          }
+        ]
+      }
+    },
+    {
+      "data": {
+        "url": "data/map2_house_sales_q4_2025.csv"
+      },
+      "transform": [
+        {
+          "filter": {
+            "field": "suburb",
+            "oneOf": [
+              "Tarneit",
+              "Craigieburn",
+              "Mickleham"
+            ]
+          }
+        },
+        {
+          "calculate": "datum.suburb + ' (' + format(datum.sales_q4_2025, ',.0f') + ')'",
+          "as": "annotation"
+        }
+      ],
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "baseline": "middle",
+        "dx": 15,
+        "dy": -12,
+        "fontSize": 12,
+        "fontWeight": "bold",
+        "color": "#111111"
+      },
+      "encoding": {
+        "longitude": {
+          "field": "longitude",
+          "type": "quantitative"
+        },
+        "latitude": {
+          "field": "latitude",
+          "type": "quantitative"
+        },
+        "text": {
+          "field": "annotation",
+          "type": "nominal"
+        }
       }
     }
   ]

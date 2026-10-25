@@ -1,7 +1,11 @@
+
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Melbourne Housing Market</title>
+    <link rel="stylesheet" href="style.css">
 
     <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
     <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
@@ -9,204 +13,375 @@
 </head>
 
 <body>
-
-    <h1>Melbourne Housing Market</h1>
-
-    <p>
-        This visualisation explores how residential property prices vary across Melbourne
-        suburbs and how price relates to location, dwelling type, property characteristics,
-        and accessibility.
-    </p>
-
-    <div>
-        <h2>1. Where are Melbourne's most expensive suburbs?</h2>
-
-        <h3>Median House and Unit Prices by Suburb</h3>
+    <header>
+        <h1>Melbourne Housing Market</h1>
         <p>
-            This choropleth map will compare median property prices across Melbourne suburbs.
+            From expensive inner-city suburbs to busy outer-suburban markets,
+            Melbourne's housing prices and sales activity tell different stories.
         </p>
+    </header>
 
-        <!-- Vega-Lite Map 1 will be embedded here later -->
-        <div id="map1"></div>
 
-        <p>
-            Median property prices show a strong spatial pattern across Melbourne. 
-            House prices are generally higher in inner Melbourne, particularly in suburbs close to the CBD, 
-            while most outer suburbs have lower median prices. 
-            A second high-price cluster can be observed on the Mornington Peninsula, 
-            with Portsea recording a median house price of $3.8 million in Q4 2025.
-
-            Unit prices show a different pattern. 
-            Higher unit prices are concentrated in parts of inner and eastern Melbourne, 
-            while many outer suburbs have no recorded unit median price for Q4 2025. 
-            These missing values do not represent a price of zero, 
-            but indicate that no usable median unit price was available for the quarter, 
-            reflecting the much lower presence or transaction activity of units in many outer suburban areas.
-        </p>
-
-        <div>
-            <img src="images/toorak.jpg" alt="Toorak" width="300">
-            <p>"Chastelton", characteristic of many 1880s Victorian houses built in Toorak area</p>
+    <div class="key-stats">
+    <div class="stat-item">
+        <div class="stat-number">$6.9M</div>
+        <div class="stat-label">
+            Toorak was the most expensive suburb for houses in Q4 2025
         </div>
+    </div>
 
-        <div>
-            <img src="images/portsea.jpg" alt="Portsea" width="300">
-            <p>Millionaires Walk, Portsea</p>
+    <div class="stat-item">
+        <div class="stat-number">530</div>
+        <div class="stat-label">
+            Tarneit recorded the highest house sales volume in Q4 2025
         </div>
-
-
-        <h3>Most Expensive House and Unit Suburbs</h3>
-
-        <p>
-            These lollipop charts show the ten suburbs with the highest median
-            house and unit prices in Q4 2025.
-        </p>
-
-        <div id="lollipop_house"></div>
-        <div id="lollipop_unit"></div>
-
-
-        <h3>House vs Unit Prices in the Most Expensive Suburbs</h3>
-
-        <p>
-            This connected dot plot compares median house and unit prices
-            among Melbourne's ten most expensive suburbs.
-        </p>
-
-        <div id="connected_dotplots""></div>
-
-        <p>
-            The two lollipop charts show that the suburbs with the highest house prices 
-            are not necessarily the same as those with the highest unit prices. 
-            The house ranking includes several extremely expensive suburbs, 
-            while the unit ranking contains a different mix of suburbs, 
-            suggesting that the two property types have distinct spatial price patterns.
-
-        </p>
-
-        <p>
-            The connected dot plot provides a more direct comparison by 
-            considering only suburbs with median prices available for both houses and units. 
-            As a result, several suburbs appearing in the top house-price ranking disappear 
-            from this chart because no unit median price was available for Q4 2025, 
-            which may reflect limited unit availability or low unit transaction activity. 
-            Among the remaining suburbs, house prices are consistently much higher than unit prices, 
-            with particularly large gaps in some high-priced suburbs. Together, 
-            the charts show that a high house price does not necessarily imply an equally high unit price, 
-            and that house and unit markets can behave differently even within the same suburb.
-        </p>
-
     </div>
 
-    <div>
-        <h2>2. Where is the housing market most active?</h2>
-
-        <h3>House Price and Sales Activity by Suburb</h3>
-        <p>
-            This proportional symbol map will compare house transaction volume and median
-            house price across suburbs.
-        </p>
-
-        <!-- Vega-Lite Map 2 will be embedded here later -->
-        <div id="map2"></div>
-
-        <p>
-        Higher house prices do not necessarily correspond to higher sales activity.
-        Suburbs with the greatest number of house sales are generally concentrated
-        in the moderate price range, while many of Melbourne's most expensive suburbs
-        record relatively lower transaction volumes. This suggests that market activity
-        is not simply driven by property price, with more moderately priced suburbs
-        accounting for a larger share of house transactions.
-        </p>
-
-        <h3>House Sales across Different Price Levels</h3>
-
-        <p>
-            This jitter plot compares house sales activity across suburbs with low, medium, 
-            and high median house prices in Q4 2025. Each point represents one Melbourne suburb.
-        </p>
-
-        <p> 
-            Low-priced suburbs are defined as those with a median house price below $1.1 million,
-            medium-priced suburbs have a median house price between $1.1 million and $2.0 million,
-            and high-priced suburbs have a median house price above $2.0 million.
-        </p>
-
-        <div id="jitter_house_sales"></div>
-
-        <p>
-            Sales activity varies considerably across all three price levels. However, 
-            the highest transaction volumes are concentrated in the low-price group, 
-            which also shows the widest spread in house sales. Medium-priced suburbs generally record lower sales volumes, 
-            while high-priced suburbs are more strongly concentrated at the lower end of the sales range. 
-            This reinforces the pattern observed in the map: higher house prices do not necessarily correspond to greater market activity.
-        </p>
-
-        <h3>Is Market Activity Associated with Price Growth?</h3>
-
-        <p>
-            This scatter plot examines the relationship between house sales activity and annual house price change across Melbourne suburbs in Q4 2025. 
-            Each point represents one suburb, while the red regression line shows the overall linear relationship between sales activity and price growth.
-        </p>
-
-        <div id="scatterplot-activitygrowth"></div>
-
-        <p>
-            The regression line is almost flat, suggesting little clear linear association between house sales activity and annual price growth. 
-            However, the distribution of the points reveals another pattern. 
-            Suburbs with lower sales activity show a much wider range of annual price changes, 
-            including both substantial increases and decreases. 
-            In contrast, suburbs with higher sales activity are more concentrated within a narrower range of price changes. 
-            This suggests that more active housing markets tend to show less variation in annual price movements, 
-            while lower-activity suburbs experience more varied price changes.
-        </p>
-
+    <div class="stat-item">
+        <div class="stat-number stat-positive">+54.8%</div>
+        <div class="stat-label">
+            Growth in the house price measure, 2015–2025
+        </div>
     </div>
 
-    <div>
-        <h2>3. Does access to Melbourne CBD relate to house prices?</h2>
-
-        <h3>Train Connectivity to Melbourne CBD</h3>
-        <p>
-            This flow map will examine train connectivity between suburbs and Melbourne CBD
-            and compare it with median house prices.
-        </p>
-
-        <!-- Vega-Lite Map 3 will be embedded here later -->
-        <div id="map3"></div>
+    <div class="stat-item">
+        <div class="stat-number">$1.15M</div>
+        <div class="stat-label">
+            Median of suburb-level house prices in 2025
+        </div>
     </div>
 
-    <div>
-        <h2>Further Analysis</h2>
-        <p>
-            Additional charts about property characteristics, distance from the CBD,
-            dwelling types, land size, and other housing-market patterns will be added here.
-        </p>
+</div>
 
-        <!-- Additional Vega-Lite charts will be embedded here later -->
-    </div>
 
-    <div>
-        <h2>Sources</h2>
-        <p>Data sources will be listed here.</p>
-    </div>
+    <main>
+        <section id="part1">
+            <h2>1. Where are Melbourne's most expensive suburbs?</h2>
 
-    <div>
+            <h3>Median House and Unit Prices by Suburb</h3>
+            <div id="map1" class="chart"></div>
+
+            <p class="chart-description">
+                House prices are highest in inner Melbourne and parts of the
+                Mornington Peninsula, with Portsea reaching $3.8 million in Q4 2025.
+                In contrast, many outer suburbs have relatively lower house prices.
+                Unit prices show a different spatial pattern, with higher prices
+                concentrated in parts of inner and eastern Melbourne.
+                Several outer suburbs also have no recorded quarterly unit median,
+                rather than a price of zero.
+            </p>
+
+            <h3>Most Expensive House and Unit Suburbs</h3>
+
+            <div class="lollipop-row">
+                <div class="lollipop-item">
+                    <div id="lollipop_house" class="chart"></div>
+
+                    <p class="chart-description">
+                        The most expensive house suburbs have exceptionally high median prices,
+                        with several locations standing well above the broader Melbourne market.
+                        The ranking highlights how premium house prices are concentrated
+                        in a relatively small number of suburbs.
+                    </p>
+                </div>
+
+                <div class="lollipop-item">
+                    <div id="lollipop_unit" class="chart"></div>
+
+                    <p class="chart-description">
+                        The unit price ranking contains a different mix of suburbs
+                        compared with the house ranking.
+                        This suggests that expensive houses do not necessarily indicate
+                        equally expensive units, reflecting differences between the two
+                        property markets.
+                    </p>
+                </div>
+            </div>
+
+            <h3>House vs Unit Prices in the Most Expensive Suburbs</h3>
+            <div id="connected_dotplots" class="chart"></div>
+
+            <p class="chart-description">
+                Houses are consistently more expensive than units among the suburbs
+                included in this comparison. However, the size of the price gap
+                varies considerably between locations.
+                Some expensive house suburbs show much larger differences,
+                suggesting that house and unit prices do not always follow
+                the same pattern within a suburb.
+            </p>
+        </section>
+
+
+        <section id="part2">
+            <h2>2. Where is the housing market most active?</h2>
+
+            <h3>House Price and Sales Activity by Suburb</h3>
+            <div id="map2" class="chart"></div>
+
+            <p class="chart-description">
+                The highest house sales volumes are concentrated in several
+                moderately priced suburbs, particularly in Melbourne's outer areas.
+                In contrast, many expensive inner suburbs record relatively fewer
+                transactions. This indicates that suburbs with the highest
+                property prices are not necessarily the most active housing markets.
+            </p>
+
+            <h3>House Sales across Different Price Levels</h3>
+
+            <p class="method-note">
+                Price groups: <strong>Low</strong> (below $1.1 million),
+                <strong>Medium</strong> ($1.1 million to $2.0 million), and
+                <strong>High</strong> (above $2.0 million).
+                Each point represents one suburb.
+            </p>
+
+            <div id="jitter_house_sales" class="chart"></div>
+
+            <p class="chart-description">
+                Lower-priced suburbs show both the highest sales volumes
+                and the widest variation in market activity.
+                Medium-priced suburbs generally have fewer sales,
+                while the high-price group is concentrated at lower transaction levels.
+                This reinforces the finding that more affordable housing markets
+                often experience greater sales activity.
+            </p>
+
+            <h3>Is Market Activity Associated with Price Growth?</h3>
+            <div id="scatterplot-activitygrowth" class="chart"></div>
+
+            <p class="chart-description">
+                The nearly flat regression line suggests little clear linear
+                relationship between house sales activity and annual price growth.
+                However, suburbs with fewer transactions show a much wider range
+                of price changes, including both increases and decreases.
+                Higher-sales suburbs tend to be concentrated within a narrower
+                range of annual price movements.
+            </p>
+        </section>
+
+
+        <section id="part3">
+            <h2>3. Does Public Transport Accessibility Relate to Housing Prices?</h2>
+
+            <h3>Public Transport Stops Across Melbourne</h3>
+            <div id="map3" class="chart"></div>
+
+            <p class="chart-description">
+                Public transport stops are distributed unevenly across Melbourne.
+                Train stations follow major railway corridors extending from
+                the inner city towards outer suburbs, while tram stops are
+                concentrated in central Melbourne.
+                Bus stops provide the widest geographical coverage,
+                including many outer suburban areas with fewer train or tram stops.
+            </p>
+
+            <h3>Public Transport Stop Density and House Prices</h3>
+
+            <p class="method-note">
+                Stop density = train, tram and bus stops per km².
+                <strong>Low:</strong> fewer than 5 stops/km²;
+                <strong>Medium:</strong> 5 to less than 11 stops/km²;
+                <strong>High:</strong> 11 or more stops/km².
+                CBD distance is measured in a straight line from each suburb's centroid.
+            </p>
+
+            <div id="heatmap-transport-houseprice" class="chart"></div>
+
+            <p class="chart-description">
+                House prices generally decrease as suburbs become further from
+                Melbourne's CBD. Within several distance groups, suburbs with
+                higher public transport stop density also tend to have higher prices.
+                However, the low-density group within 10 km has the highest
+                median price at $2.26 million, based on only three suburbs.
+                This shows that the relationship is not consistent across all groups.
+            </p>
+
+            <h3>House Prices by Public Transport Stop Count</h3>
+
+            <p class="method-note">
+                Suburbs are grouped by their total number of public transport stops:
+                <strong>35 stops or fewer</strong> and <strong>more than 35 stops</strong>.
+            </p>
+
+            <div class="boxplot-layout">
+                <div id="boxplot-transport-houseprice" class="chart"></div>
+
+                <div class="boxplot-description">
+                <p>
+                    Suburbs with more than 35 public transport stops have a slightly
+                    higher median house price ($1.10 million) than those with
+                    35 stops or fewer ($1.02 million). However, the two groups
+                    show substantial overlap in their price distributions.
+                </p>
+
+                <p>
+                    This suggests that stop count alone cannot explain house price
+                    differences. Larger suburbs may naturally contain more stops,
+                    while service frequency and actual accessibility are not considered.
+                </p>
+</div>
+            </div>
+        </section>
+
+
+        <section id="summary">
+            <h2>Looking Back: Melbourne's Housing Price Trends</h2>
+
+            <h3>House and Unit Prices, 2015–2025</h3>
+
+            <p class="method-note">
+                Each yearly value is the median of suburb-level median sale prices for the same
+                307 Melbourne suburbs. This is not the official transaction-weighted Melbourne median.
+            </p>
+
+            <div id="housing-trends" class="chart"></div>
+
+            <p class="chart-description">
+                Both house and unit prices increased between 2015 and 2025,
+                but houses experienced stronger growth.
+                House prices rose by approximately 54.8%, compared with 34.7%
+                for units. The most noticeable house price increase occurred
+                around 2021, followed by relatively smaller changes
+                in the following years.
+            </p>
+
+            <h3>Annual House Price Changes</h3>
+            <div id="waterfall-house-price" class="chart"></div>
+
+            <p class="chart-description">
+                The largest annual increase occurred in 2021, when the
+                house price measure rose by $210,000.
+                Although prices declined in several years, including 2019
+                and 2022, these decreases were smaller than the major increases.
+                Overall, the value rose from $745,000 in 2015 to approximately
+                $1.15 million in 2025.
+            </p>
+        </section>
+
+
+        <section id="conclusion">
+            <h2>The Bigger Picture: Price, Activity and Accessibility</h2>
+
+            <p>
+                Melbourne's most expensive suburbs are not necessarily its most active markets.
+                While proximity to the CBD and public transport may relate to house prices,
+                neither fully explains the differences between suburbs.
+                Over the past decade, house prices have also grown faster than unit prices.
+            </p>
+        </section>
+
+
+        
+        <section id="sources">
+            <div class="sources-layout">
+
+                <div class="sources-column">
+                    <h2>Sources</h2>
+
+                    <ul>
+                        <li>
+                            <a href="https://discover.data.vic.gov.au/dataset/victorian-property-sales-report-yearly-summary">
+                                Victorian Property Sales Report — Yearly Summary
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="https://data.gov.au/data/dataset/vic-suburb-locality-boundaries-geoscape-administrative-boundaries">
+                                Victoria Suburb and Locality Boundaries
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="https://discover.data.vic.gov.au/dataset/victorian-property-sales-report-median-house-by-suburb">
+                                Victorian Median House Prices by Suburb
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="https://discover.data.vic.gov.au/dataset/victorian-property-sales-report-median-unit-by-suburb">
+                                Victorian Median Unit Prices by Suburb
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="https://opendata.transport.vic.gov.au/dataset/public-transport-lines-and-stops">
+                                Victorian Public Transport Lines and Stops
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="https://www.land.vic.gov.au/valuations/resources-and-reports/property-sales-statistics">
+                                Victorian Property Sales Statistics
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                
+                
+                <div class="processing-column">
+                    <h2>Data Processing</h2>
+
+                    <h4>1. Property Sales Data</h4>
+                    <p>Excel extraction, cleaning and CSV conversion</p>
+
+                    <h4>2. Geographic Data</h4>
+                    <p>Suburb filtering and geographic matching</p>
+
+                    <h4>3. Public Transport Data</h4>
+                    <p>Stop counts, density and CBD distances</p>
+
+                    <h4>4. Aggregation and Historical Trends</h4>
+                    <p>Grouping and historical median calculations</p>
+                </div>
+
+
+            </div>
+
+
+            
+        </section>
+
+    </main>
+
+    <footer>
         <p>Created by Yuxuan Sun</p>
-    </div>
+    </footer>
 
     <script type="text/javascript">
-        var spec1 = "map1.vg.json";
-
-        vegaEmbed('#map1', spec1)
+        vegaEmbed('#map1', 'map1.vg.json');
         vegaEmbed('#lollipop_house', 'lollipop_house.vg.json');
         vegaEmbed('#lollipop_unit', 'lollipop_unit.vg.json');
-        vegaEmbed('#connected_dotplots', "connected_dotplots.vg.json")
+        vegaEmbed('#connected_dotplots', 'connected_dotplots.vg.json');
         vegaEmbed('#map2', 'map2.vg.json');
         vegaEmbed('#jitter_house_sales', 'jitter_house_sales.vg.json');
         vegaEmbed('#scatterplot-activitygrowth', 'scatterplot_activitygrowth.vg.json');
-
+        vegaEmbed('#map3', 'map3.vg.json');
+        vegaEmbed('#heatmap-transport-houseprice', 'heatmap_transport_houseprice.vg.json');
+        vegaEmbed('#boxplot-transport-houseprice', 'boxplot_melbourne_stops_houseprice.vg.json');
+        vegaEmbed('#housing-trends', 'melbourne_house_unit_price_trends.vg.json');
+        vegaEmbed('#waterfall-house-price', 'waterfall_house_price_2015_2025.vg.json');
     </script>
 
+    <script>
+        document.querySelectorAll('main section > .chart-description').forEach(description =>
+        {
+            const words = description.textContent.trim().split(/\s+/);
+            const fragment = document.createDocumentFragment();
+
+            for (let i = 0; i < words.length; i += 13) {
+                if (i > 0) {
+                    fragment.appendChild(document.createElement('br'));
+                }
+
+                fragment.appendChild(
+                    document.createTextNode(words.slice(i, i + 13).join(' '))
+                );
+            }
+
+            description.replaceChildren(fragment);
+        });
+    </script>
 </body>
 </html>
+

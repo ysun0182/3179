@@ -1,0 +1,156 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": "Transport Stop Density, CBD Distance and Median House Prices (Q4 2025)",
+  "width": 850,
+  "height": 400,
+
+  "data": {
+    "url": "data/heatmap_transport_houseprice.csv"
+  },
+
+  "transform": [
+    {
+      "calculate": "'$' + format(datum.median_house_price_aud / 1000000, '.2f') + 'm'",
+      "as": "price_label"
+    },
+    {
+      "calculate": "'n = ' + datum.suburb_count",
+      "as": "count_label"
+    }
+  ],
+
+  "encoding": {
+    "x": {
+      "field": "distance_band",
+      "type": "ordinal",
+      "sort": [
+        "0–10 km",
+        "10–20 km",
+        "20–30 km",
+        "30+ km"
+      ],
+      "title": "Straight-line Distance to Melbourne CBD"
+    },
+
+    "y": {
+      "field": "density_band",
+      "type": "ordinal",
+      "sort": [
+        "High",
+        "Medium",
+        "Low"
+      ],
+      "title": "Public Transport Stop Density"
+    }
+  },
+
+  "layer": [
+    {
+      "mark": {
+        "type": "rect",
+        "stroke": "white",
+        "strokeWidth": 3
+      },
+
+      "encoding": {
+        "color": {
+          "field": "median_house_price_aud",
+          "type": "quantitative",
+          "title": "Median House Price (AUD)",
+          "scale": {
+            "scheme": "blues"
+          },
+          "legend": {
+            "format": "$~s"
+          }
+        },
+
+        "tooltip": [
+          {
+            "field": "distance_band",
+            "type": "ordinal",
+            "title": "Distance to CBD"
+          },
+          {
+            "field": "density_band",
+            "type": "ordinal",
+            "title": "Stop Density Level"
+          },
+          {
+            "field": "median_house_price_aud",
+            "type": "quantitative",
+            "title": "Median House Price",
+            "format": "$,.0f"
+          },
+          {
+            "field": "suburb_count",
+            "type": "quantitative",
+            "title": "Number of Suburbs"
+          },
+          {
+            "field": "median_stop_density_per_km2",
+            "type": "quantitative",
+            "title": "Median Stops per km²",
+            "format": ".2f"
+          }
+        ]
+      }
+    },
+
+    {
+      "mark": {
+        "type": "text",
+        "fontSize": 17,
+        "fontWeight": "bold",
+        "dy": -10
+      },
+
+      "encoding": {
+        "text": {
+          "field": "price_label",
+          "type": "nominal"
+        },
+        "color": {
+          "condition": {
+            "test": "datum.median_house_price_aud >= 1400000",
+            "value": "white"
+          },
+          "value": "#203044"
+        }
+      }
+    },
+
+    {
+      "mark": {
+        "type": "text",
+        "fontSize": 13,
+        "dy": 14
+      },
+
+      "encoding": {
+        "text": {
+          "field": "count_label",
+          "type": "nominal"
+        },
+        "color": {
+          "condition": {
+            "test": "datum.median_house_price_aud >= 1400000",
+            "value": "white"
+          },
+          "value": "#203044"
+        }
+      }
+    }
+  ],
+
+  "config": {
+    "axis": {
+      "labelFontSize": 12,
+      "titleFontSize": 13,
+      "labelAngle": 0
+    },
+    "view": {
+      "stroke": null
+    }
+  }
+}

@@ -1,0 +1,162 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": "Melbourne House Price Changes (2015–2025)",
+  "width": 1000,
+  "height": 420,
+
+  "data": {
+    "url": "data/waterfall_house_price_2015_2025.csv",
+    "format": {
+      "type": "csv",
+      "parse": {
+        "stage": "string",
+        "bar_type": "string",
+        "start_value": "number",
+        "end_value": "number",
+        "annual_change_aud": "number",
+        "price_aud": "number"
+      }
+    }
+  },
+
+  "encoding": {
+    "x": {
+      "field": "stage",
+      "type": "ordinal",
+      "sort": [
+        "2015 Start",
+        "2016",
+        "2017",
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023",
+        "2024",
+        "2025",
+        "2025 Final"
+      ],
+      "title": "Year",
+      "axis": {
+        "labelAngle": -35
+      }
+    }
+  },
+
+  "layer": [
+    {
+      "mark": {
+        "type": "bar",
+        "size": 43
+      },
+
+      "encoding": {
+        "y": {
+          "field": "end_value",
+          "type": "quantitative",
+          "title": "House Price (AUD)",
+          "scale": {
+            "domain": [0, 1250000]
+          },
+          "axis": {
+            "format": "$~s"
+          }
+        },
+
+        "y2": {
+          "field": "start_value"
+        },
+
+        "color": {
+          "field": "bar_type",
+          "type": "nominal",
+          "scale": {
+            "domain": [
+              "increase",
+              "decrease",
+              "total"
+            ],
+            "range": [
+              "#2563eb",
+              "#dc2626",
+              "#6b7280"
+            ]
+          },
+          "legend": null
+        },
+
+        "tooltip": [
+          {
+            "field": "stage",
+            "type": "nominal",
+            "title": "Year"
+          },
+          {
+            "field": "bar_type",
+            "type": "nominal",
+            "title": "Change Type"
+          },
+          {
+            "field": "annual_change_aud",
+            "type": "quantitative",
+            "title": "Annual Change (AUD)",
+            "format": "+$,.0f"
+          },
+          {
+            "field": "price_aud",
+            "type": "quantitative",
+            "title": "House Price (AUD)",
+            "format": "$,.0f"
+          }
+        ]
+      }
+    },
+
+    {
+      "transform": [
+        {
+          "filter": "datum.stage === '2015 Start' || datum.stage === '2021' || datum.stage === '2025 Final'"
+        },
+        {
+          "calculate": "datum.stage === '2015 Start' ? '$745k' : datum.stage === '2021' ? '+$210k' : '$1.15m'",
+          "as": "annotation"
+        }
+      ],
+
+      "mark": {
+        "type": "text",
+        "dy": -12,
+        "fontSize": 12,
+        "fontWeight": "bold",
+        "color": "#1f2937"
+      },
+
+      "encoding": {
+        "y": {
+          "field": "end_value",
+          "type": "quantitative",
+          "scale": {
+            "domain": [0, 1250000]
+          }
+        },
+
+        "text": {
+          "field": "annotation",
+          "type": "nominal"
+        }
+      }
+    }
+  ],
+
+  "config": {
+    "view": {
+      "stroke": null
+    },
+    "axis": {
+      "labelFontSize": 12,
+      "titleFontSize": 13,
+      "gridColor": "#e6ebf1"
+    }
+  }
+}

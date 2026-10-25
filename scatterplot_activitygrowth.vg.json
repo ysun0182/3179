@@ -1,7 +1,8 @@
+
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": "House Sales Activity and Price Growth (Q4 2025)",
-  "width": 700,
+  "width": 1000,
   "height": 450,
 
   "data": {
@@ -29,20 +30,17 @@
         "size": 70,
         "opacity": 0.6
       },
-
       "encoding": {
         "x": {
           "field": "sales",
           "type": "quantitative",
           "title": "House Sales (Q4 2025)"
         },
-
         "y": {
           "field": "growth",
           "type": "quantitative",
           "title": "Annual Price Change (%)"
         },
-
         "tooltip": [
           {
             "field": "suburb",
@@ -63,7 +61,6 @@
         ]
       }
     },
-
     {
       "transform": [
         {
@@ -71,22 +68,129 @@
           "on": "sales"
         }
       ],
-
       "mark": {
         "type": "line",
         "color": "red",
         "strokeWidth": 2
       },
-
       "encoding": {
         "x": {
           "field": "sales",
           "type": "quantitative"
         },
-
         "y": {
           "field": "growth",
           "type": "quantitative"
+        }
+      }
+    },
+    {
+      "transform": [
+        {
+          "window": [
+            {
+              "op": "row_number",
+              "as": "top_rank"
+            }
+          ],
+          "sort": [
+            {
+              "field": "growth",
+              "order": "descending"
+            }
+          ]
+        },
+        {
+          "window": [
+            {
+              "op": "row_number",
+              "as": "bottom_rank"
+            }
+          ],
+          "sort": [
+            {
+              "field": "growth",
+              "order": "ascending"
+            }
+          ]
+        },
+        {
+          "filter": "datum.top_rank <= 2 || datum.bottom_rank <= 2"
+        }
+      ],
+      "mark": {
+        "type": "point",
+        "filled": false,
+        "stroke": "#111111",
+        "strokeWidth": 2.5,
+        "size": 200
+      },
+      "encoding": {
+        "x": {
+          "field": "sales",
+          "type": "quantitative"
+        },
+        "y": {
+          "field": "growth",
+          "type": "quantitative"
+        }
+      }
+    },
+    {
+      "transform": [
+        {
+          "window": [
+            {
+              "op": "row_number",
+              "as": "top_rank"
+            }
+          ],
+          "sort": [
+            {
+              "field": "growth",
+              "order": "descending"
+            }
+          ]
+        },
+        {
+          "window": [
+            {
+              "op": "row_number",
+              "as": "bottom_rank"
+            }
+          ],
+          "sort": [
+            {
+              "field": "growth",
+              "order": "ascending"
+            }
+          ]
+        },
+        {
+          "filter": "datum.top_rank <= 2 || datum.bottom_rank <= 2"
+        }
+      ],
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "fontSize": 12,
+        "fontWeight": "bold",
+        "dx": 12,
+        "dy": -10,
+        "color": "#111111"
+      },
+      "encoding": {
+        "x": {
+          "field": "sales",
+          "type": "quantitative"
+        },
+        "y": {
+          "field": "growth",
+          "type": "quantitative"
+        },
+        "text": {
+          "field": "suburb",
+          "type": "nominal"
         }
       }
     }

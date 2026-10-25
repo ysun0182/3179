@@ -1,0 +1,186 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": "Public Transport Stops Across Melbourne",
+  "width": 1000,
+  "height": 700,
+
+  "projection": {
+    "type": "mercator"
+  },
+
+  "layer": [
+    {
+      "data": {
+        "url": "data/melbourne_suburbs.geojson",
+        "format": {
+          "type": "json",
+          "property": "features"
+        }
+      },
+      "mark": {
+        "type": "geoshape",
+        "fill": "#f2f2f2",
+        "stroke": "#bdbdbd",
+        "strokeWidth": 0.45
+      }
+    },
+
+    {
+      "data": {
+        "url": "data/map3_melbourne_transport_stops.csv"
+      },
+      "transform": [
+        {
+          "filter": "datum.mode == 'Bus'"
+        }
+      ],
+      "mark": {
+        "type": "circle",
+        "size": 8,
+        "opacity": 0.25
+      },
+      "encoding": {
+        "longitude": {
+          "field": "longitude",
+          "type": "quantitative"
+        },
+        "latitude": {
+          "field": "latitude",
+          "type": "quantitative"
+        },
+        "color": {
+          "field": "mode",
+          "type": "nominal",
+          "title": "Transport Mode",
+          "scale": {
+            "domain": ["Train", "Tram", "Bus"],
+            "range": ["#2563eb", "#16a34a", "#ea580c"]
+          }
+        },
+        "tooltip": [
+          {
+            "field": "stop_name",
+            "type": "nominal",
+            "title": "Stop Name"
+          },
+          {
+            "field": "mode",
+            "type": "nominal",
+            "title": "Mode"
+          },
+          {
+            "field": "suburb",
+            "type": "nominal",
+            "title": "Suburb"
+          }
+        ]
+      }
+    },
+
+    {
+      "data": {
+        "url": "data/map3_melbourne_transport_stops.csv"
+      },
+      "transform": [
+        {
+          "filter": "datum.mode == 'Tram'"
+        }
+      ],
+      "mark": {
+        "type": "circle",
+        "size": 8,
+        "opacity": 0.75
+      },
+      "encoding": {
+        "longitude": {
+          "field": "longitude",
+          "type": "quantitative"
+        },
+        "latitude": {
+          "field": "latitude",
+          "type": "quantitative"
+        },
+        "color": {
+          "field": "mode",
+          "type": "nominal",
+          "title": "Transport Mode",
+          "scale": {
+            "domain": ["Train", "Tram", "Bus"],
+            "range": ["#2563eb", "#16a34a", "#ea580c"]
+          }
+        },
+        "tooltip": [
+          {
+            "field": "stop_name",
+            "type": "nominal",
+            "title": "Stop Name"
+          },
+          {
+            "field": "mode",
+            "type": "nominal",
+            "title": "Mode"
+          },
+          {
+            "field": "suburb",
+            "type": "nominal",
+            "title": "Suburb"
+          }
+        ]
+      }
+    },
+
+    {
+      "data": {
+        "url": "data/map3_melbourne_transport_stops.csv"
+      },
+      "transform": [
+        {
+          "filter": "datum.mode == 'Train'"
+        }
+      ],
+      "mark": {
+        "type": "circle",
+        "size": 60,
+        "opacity": 0.9,
+        "stroke": "white",
+        "strokeWidth": 0.5
+      },
+      "encoding": {
+        "longitude": {
+          "field": "longitude",
+          "type": "quantitative"
+        },
+        "latitude": {
+          "field": "latitude",
+          "type": "quantitative"
+        },
+        "color": {
+          "field": "mode",
+          "type": "nominal",
+          "title": "Transport Mode",
+          "scale": {
+            "domain": ["Train", "Tram", "Bus"],
+            "range": ["#2563eb", "#16a34a", "#ea580c"]
+          }
+        },
+        "tooltip": [
+          {
+            "field": "stop_name",
+            "type": "nominal",
+            "title": "Stop Name"
+          },
+          {
+            "field": "mode",
+            "type": "nominal",
+            "title": "Mode"
+          },
+          {
+            "field": "suburb",
+            "type": "nominal",
+            "title": "Suburb"
+          }
+        ]
+      }
+    }
+  ]
+}

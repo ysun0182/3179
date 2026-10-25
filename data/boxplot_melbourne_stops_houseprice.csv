@@ -1,0 +1,452 @@
+suburb,join_key,total_stops,train_stops,tram_stops,bus_stops,stop_density_per_km2,distance_to_cbd_km,median_house_price_aud,stop_group_10,stop_group_35
+Abbotsford,ABBOTSFORD,25,2,9,14,13.962,3.386,1288000,More Stops,Fewer Stops
+Aberfeldie,ABERFELDIE,20,0,0,20,12.790,8.341,1845000,More Stops,Fewer Stops
+Aintree,AINTREE,29,0,0,29,4.264,27.992,725000,More Stops,Fewer Stops
+Airport West,AIRPORT WEST,60,0,11,49,15.366,12.278,1100000,More Stops,More Stops
+Albanvale,ALBANVALE,22,0,0,22,11.868,18.705,700800,More Stops,Fewer Stops
+Albert Park,ALBERT PARK,31,0,23,8,10.932,3.503,2105000,More Stops,Fewer Stops
+Albion,ALBION,21,1,0,20,8.437,13.572,812000,More Stops,Fewer Stops
+Alphington,ALPHINGTON,29,1,0,28,10.245,7.012,2550000,More Stops,Fewer Stops
+Altona,ALTONA,66,2,0,64,3.979,14.123,1295500,More Stops,More Stops
+Altona Meadows,ALTONA MEADOWS,47,0,0,47,4.453,17.420,835500,More Stops,More Stops
+Altona North,ALTONA NORTH,106,0,0,106,7.497,11.653,998300,More Stops,More Stops
+Ardeer,ARDEER,11,0,0,11,5.426,14.825,711000,More Stops,Fewer Stops
+Armadale,ARMADALE,58,2,31,25,26.941,6.937,2535500,More Stops,More Stops
+Arthurs Seat,ARTHURS SEAT,0,0,0,0,0.000,61.014,,Fewer Stops,Fewer Stops
+Ascot Vale,ASCOT VALE,64,1,19,44,16.655,5.951,1362000,More Stops,More Stops
+Ashburton,ASHBURTON,28,2,0,26,9.488,11.908,1990500,More Stops,Fewer Stops
+Ashwood,ASHWOOD,30,0,0,30,11.685,13.591,1427500,More Stops,Fewer Stops
+Aspendale,ASPENDALE,17,1,0,16,5.692,26.176,1492500,More Stops,Fewer Stops
+Aspendale Gardens,ASPENDALE GARDENS,17,0,0,17,5.198,26.935,1365000,More Stops,Fewer Stops
+Attwood,ATTWOOD,5,0,0,5,0.998,17.679,895000,Fewer Stops,Fewer Stops
+Avondale Heights,AVONDALE HEIGHTS,47,0,0,47,8.702,10.570,1085000,More Stops,More Stops
+Balaclava,BALACLAVA,10,1,5,4,13.310,6.900,1267500,Fewer Stops,Fewer Stops
+Balnarring,BALNARRING,4,0,0,4,0.150,61.494,1580000,Fewer Stops,Fewer Stops
+Balwyn,BALWYN,47,0,8,39,10.738,10.605,2700000,More Stops,More Stops
+Balwyn North,BALWYN NORTH,107,0,12,95,11.779,10.947,2360000,More Stops,More Stops
+Bangholme,BANGHOLME,13,0,0,13,0.552,31.882,,More Stops,Fewer Stops
+Baxter,BAXTER,12,1,0,11,1.214,46.231,770000,More Stops,Fewer Stops
+Bayswater,BAYSWATER,63,1,0,62,8.010,26.786,958500,More Stops,More Stops
+Bayswater North,BAYSWATER NORTH,66,0,0,66,10.058,28.261,947600,More Stops,More Stops
+Beaconsfield,BEACONSFIELD,29,1,0,28,2.609,44.717,1005000,More Stops,Fewer Stops
+Beaconsfield Upper,BEACONSFIELD UPPER,0,0,0,0,0.000,45.398,1270000,Fewer Stops,Fewer Stops
+Beaumaris,BEAUMARIS,66,0,0,66,12.926,19.888,2100000,More Stops,More Stops
+Belgrave,BELGRAVE,34,1,0,33,8.078,36.213,816000,More Stops,Fewer Stops
+Belgrave Heights,BELGRAVE HEIGHTS,5,0,0,5,2.128,35.746,1005500,Fewer Stops,Fewer Stops
+Bellfield,BELLFIELD,11,0,0,11,11.741,9.447,993500,More Stops,Fewer Stops
+Bentleigh,BENTLEIGH,52,2,0,50,11.068,13.809,1650000,More Stops,More Stops
+Bentleigh East,BENTLEIGH EAST,145,0,0,145,16.148,15.120,1608500,More Stops,More Stops
+Berwick,BERWICK,217,1,0,216,6.406,42.163,907300,More Stops,More Stops
+Beveridge,BEVERIDGE,12,0,0,12,0.107,37.463,652500,More Stops,Fewer Stops
+Bittern,BITTERN,9,1,0,8,0.526,60.823,850000,Fewer Stops,Fewer Stops
+Black Rock,BLACK ROCK,26,0,0,26,8.057,18.230,2320000,More Stops,Fewer Stops
+Blackburn,BLACKBURN,85,2,0,83,14.396,16.678,1568500,More Stops,More Stops
+Blackburn North,BLACKBURN NORTH,40,0,0,40,14.837,16.867,1465000,More Stops,More Stops
+Blackburn South,BLACKBURN SOUTH,47,0,0,47,13.079,16.401,1360500,More Stops,More Stops
+Blairgowrie,BLAIRGOWRIE,32,0,0,32,5.140,63.828,1575000,More Stops,Fewer Stops
+Bonbeach,BONBEACH,15,1,0,14,5.342,31.243,1280000,More Stops,Fewer Stops
+Boneo,BONEO,0,0,0,0,0.000,66.396,,Fewer Stops,Fewer Stops
+Bonnie Brook,BONNIE BROOK,4,0,0,4,0.309,28.945,695900,Fewer Stops,Fewer Stops
+Boronia,BORONIA,116,1,0,115,10.284,28.818,926000,More Stops,More Stops
+Botanic Ridge,BOTANIC RIDGE,13,0,0,13,2.099,45.080,957500,More Stops,Fewer Stops
+Box Hill,BOX HILL,91,1,5,85,25.753,14.377,1645000,More Stops,More Stops
+Box Hill North,BOX HILL NORTH,55,0,0,55,13.913,14.686,1390000,More Stops,More Stops
+Box Hill South,BOX HILL SOUTH,51,0,0,51,14.643,14.341,1588000,More Stops,More Stops
+Braeside,BRAESIDE,31,0,0,31,3.650,25.059,,More Stops,Fewer Stops
+Braybrook,BRAYBROOK,41,0,0,41,9.489,9.992,790000,More Stops,More Stops
+Briar Hill,BRIAR HILL,14,0,0,14,10.523,18.322,996000,More Stops,Fewer Stops
+Brighton,BRIGHTON,118,4,0,114,13.715,10.912,3355000,More Stops,More Stops
+Brighton East,BRIGHTON EAST,66,0,10,56,11.493,12.445,2170000,More Stops,More Stops
+Broadmeadows,BROADMEADOWS,74,1,0,73,8.769,14.811,670000,More Stops,More Stops
+Brookfield,BROOKFIELD,24,0,0,24,2.256,39.268,626300,More Stops,Fewer Stops
+Brooklyn,BROOKLYN,27,0,0,27,4.910,10.710,1000000,More Stops,Fewer Stops
+Brunswick,BRUNSWICK,114,3,28,83,22.904,5.246,1335300,More Stops,More Stops
+Brunswick East,BRUNSWICK EAST,55,0,22,33,24.872,5.123,1600000,More Stops,More Stops
+Brunswick West,BRUNSWICK WEST,92,0,18,74,28.745,5.880,1366000,More Stops,More Stops
+Bulla,BULLA,5,0,0,5,0.143,24.973,,Fewer Stops,Fewer Stops
+Bulleen,BULLEEN,53,0,0,53,8.148,11.996,1382500,More Stops,More Stops
+Bundoora,BUNDOORA,132,0,26,106,7.615,15.339,950000,More Stops,More Stops
+Bunyip,BUNYIP,3,0,0,3,0.124,73.641,815000,Fewer Stops,Fewer Stops
+Burnley,BURNLEY,5,0,4,1,4.587,5.099,,Fewer Stops,Fewer Stops
+Burnside,BURNSIDE,19,0,0,19,7.458,19.837,780000,More Stops,Fewer Stops
+Burnside Heights,BURNSIDE HEIGHTS,14,0,0,14,6.961,20.388,770000,More Stops,Fewer Stops
+Burwood,BURWOOD,81,0,23,58,13.356,13.646,1455500,More Stops,More Stops
+Burwood East,BURWOOD EAST,66,0,13,53,15.369,17.078,1386500,More Stops,More Stops
+Cairnlea,CAIRNLEA,28,0,0,28,6.214,16.564,981500,More Stops,Fewer Stops
+Calder Park,CALDER PARK,0,0,0,0,0.000,23.446,,Fewer Stops,Fewer Stops
+Camberwell,CAMBERWELL,137,5,79,53,17.669,10.113,2530000,More Stops,More Stops
+Campbellfield,CAMPBELLFIELD,42,1,0,41,3.430,16.641,717000,More Stops,More Stops
+Canterbury,CANTERBURY,25,1,2,22,7.915,9.977,3000000,More Stops,Fewer Stops
+Capel Sound,CAPEL SOUND,36,0,0,36,7.775,62.506,747000,More Stops,More Stops
+Cardinia,CARDINIA,0,0,0,0,0.000,54.160,,Fewer Stops,Fewer Stops
+Carlton,CARLTON,51,0,14,37,29.098,1.525,1690000,More Stops,More Stops
+Carlton North,CARLTON NORTH,30,0,10,20,16.068,3.039,1800000,More Stops,Fewer Stops
+Carnegie,CARNEGIE,64,1,12,51,17.350,12.028,1700000,More Stops,More Stops
+Caroline Springs,CAROLINE SPRINGS,89,0,0,89,10.627,21.752,835000,More Stops,More Stops
+Carrum,CARRUM,28,1,0,27,18.157,32.599,1020000,More Stops,Fewer Stops
+Carrum Downs,CARRUM DOWNS,109,0,0,109,5.385,36.200,845000,More Stops,More Stops
+Caulfield,CAULFIELD,24,0,14,10,16.361,9.603,1930000,More Stops,Fewer Stops
+Caulfield East,CAULFIELD EAST,14,1,3,10,11.149,10.225,1550000,More Stops,Fewer Stops
+Caulfield North,CAULFIELD NORTH,74,0,40,34,17.549,8.279,2180000,More Stops,More Stops
+Caulfield South,CAULFIELD SOUTH,58,0,21,37,17.652,10.515,2042500,More Stops,More Stops
+Chadstone,CHADSTONE,26,0,0,26,8.327,14.260,1395000,More Stops,Fewer Stops
+Chelsea,CHELSEA,32,1,0,31,12.224,29.677,1120000,More Stops,Fewer Stops
+Chelsea Heights,CHELSEA HEIGHTS,41,0,0,41,13.107,29.366,990000,More Stops,More Stops
+Cheltenham,CHELTENHAM,137,2,0,135,12.894,18.715,1385000,More Stops,More Stops
+Chirnside Park,CHIRNSIDE PARK,41,0,0,41,1.837,32.029,980000,More Stops,More Stops
+Clarinda,CLARINDA,35,0,0,35,9.579,19.148,1098500,More Stops,Fewer Stops
+Clayton,CLAYTON,91,1,0,90,11.538,18.749,1214000,More Stops,More Stops
+Clayton South,CLAYTON SOUTH,72,1,0,71,8.629,20.294,992500,More Stops,More Stops
+Clifton Hill,CLIFTON HILL,22,1,5,16,13.114,3.999,1602500,More Stops,Fewer Stops
+Clyde,CLYDE,25,0,0,25,0.621,50.578,725000,More Stops,Fewer Stops
+Clyde North,CLYDE NORTH,130,0,0,130,4.459,47.255,757000,More Stops,More Stops
+Cobblebank,COBBLEBANK,14,0,0,14,1.616,34.033,650000,More Stops,Fewer Stops
+Coburg,COBURG,133,2,32,99,19.168,7.630,1275000,More Stops,More Stops
+Coburg North,COBURG NORTH,62,2,6,54,12.771,9.620,1150000,More Stops,More Stops
+Coldstream,COLDSTREAM,15,0,0,15,0.269,41.121,894600,More Stops,Fewer Stops
+Collingwood,COLLINGWOOD,22,0,10,12,16.964,2.560,1336500,More Stops,Fewer Stops
+Coolaroo,COOLAROO,41,1,0,40,13.447,17.622,662000,More Stops,More Stops
+Craigieburn,CRAIGIEBURN,202,1,0,201,5.696,25.440,730000,More Stops,More Stops
+Cranbourne,CRANBOURNE,72,1,0,71,4.355,43.077,714000,More Stops,More Stops
+Cranbourne East,CRANBOURNE EAST,61,0,0,61,4.565,44.582,755000,More Stops,More Stops
+Cranbourne North,CRANBOURNE NORTH,79,1,0,78,7.695,41.574,812000,More Stops,More Stops
+Cranbourne South,CRANBOURNE SOUTH,8,0,0,8,0.407,45.611,932500,Fewer Stops,Fewer Stops
+Cranbourne West,CRANBOURNE WEST,46,0,0,46,3.883,40.497,740000,More Stops,More Stops
+Cremorne,CREMORNE,10,1,9,0,14.467,3.144,1250000,Fewer Stops,Fewer Stops
+Crib Point,CRIB POINT,14,3,0,11,2.141,63.411,731000,More Stops,Fewer Stops
+Croydon,CROYDON,144,1,0,143,10.236,28.340,985000,More Stops,More Stops
+Croydon Hills,CROYDON HILLS,16,0,0,16,6.874,27.094,1180000,More Stops,Fewer Stops
+Croydon North,CROYDON NORTH,26,0,0,26,6.503,28.635,1212000,More Stops,Fewer Stops
+Croydon South,CROYDON SOUTH,14,0,0,14,5.457,27.714,1025000,More Stops,Fewer Stops
+Dallas,DALLAS,20,0,0,20,8.593,16.065,640000,More Stops,Fewer Stops
+Dandenong,DANDENONG,168,1,0,167,14.781,29.009,761500,More Stops,More Stops
+Dandenong North,DANDENONG NORTH,102,0,0,102,10.662,27.142,830000,More Stops,More Stops
+Dandenong South,DANDENONG SOUTH,87,0,0,87,2.962,32.859,,More Stops,More Stops
+Deanside,DEANSIDE,10,0,0,10,0.836,24.451,700000,Fewer Stops,Fewer Stops
+Deepdene,DEEPDENE,8,0,8,0,9.342,9.056,2865000,Fewer Stops,Fewer Stops
+Deer Park,DEER PARK,72,0,0,72,8.357,17.558,711000,More Stops,More Stops
+Delahey,DELAHEY,31,0,0,31,8.645,19.389,750000,More Stops,Fewer Stops
+Derrimut,DERRIMUT,23,0,0,23,1.803,16.542,825000,More Stops,Fewer Stops
+Devon Meadows,DEVON MEADOWS,19,0,0,19,0.812,50.438,,More Stops,Fewer Stops
+Diamond Creek,DIAMOND CREEK,44,1,0,43,2.466,23.509,1060000,More Stops,More Stops
+Diggers Rest,DIGGERS REST,31,1,0,30,0.443,31.856,680000,More Stops,Fewer Stops
+Dingley Village,DINGLEY VILLAGE,59,0,0,59,7.473,23.036,1215000,More Stops,More Stops
+Docklands,DOCKLANDS,44,1,29,14,16.821,1.837,,More Stops,More Stops
+Doncaster,DONCASTER,111,0,0,111,12.572,14.533,1557500,More Stops,More Stops
+Doncaster East,DONCASTER EAST,125,0,0,125,11.435,18.098,1655000,More Stops,More Stops
+Donnybrook,DONNYBROOK,15,0,0,15,0.611,30.459,660300,More Stops,Fewer Stops
+Donvale,DONVALE,58,0,0,58,4.957,20.268,1575000,More Stops,More Stops
+Doreen,DOREEN,90,0,0,90,2.775,28.810,833500,More Stops,More Stops
+Doveton,DOVETON,39,0,0,39,9.452,31.044,667500,More Stops,More Stops
+Dromana,DROMANA,16,0,0,16,0.524,57.689,1010000,More Stops,Fewer Stops
+Eaglemont,EAGLEMONT,7,1,0,6,3.160,10.453,2581000,Fewer Stops,Fewer Stops
+East Melbourne,EAST MELBOURNE,33,2,22,9,17.795,1.717,3125000,More Stops,Fewer Stops
+Edithvale,EDITHVALE,29,1,0,28,14.079,28.217,1305000,More Stops,Fewer Stops
+Elsternwick,ELSTERNWICK,58,1,13,44,22.192,8.902,2250000,More Stops,More Stops
+Eltham,ELTHAM,53,1,0,52,3.190,20.297,1273000,More Stops,More Stops
+Eltham North,ELTHAM NORTH,24,0,0,24,5.895,20.313,1218900,More Stops,Fewer Stops
+Elwood,ELWOOD,45,0,6,39,17.273,7.715,1910000,More Stops,More Stops
+Emerald,EMERALD,25,0,0,25,0.496,44.125,890000,More Stops,Fewer Stops
+Endeavour Hills,ENDEAVOUR HILLS,129,0,0,129,8.335,31.101,900000,More Stops,More Stops
+Epping,EPPING,164,1,0,163,4.857,19.940,760000,More Stops,More Stops
+Essendon,ESSENDON,119,3,20,96,19.222,8.445,1872000,More Stops,More Stops
+Essendon Fields,ESSENDON FIELDS,3,0,0,3,1.004,11.079,,Fewer Stops,Fewer Stops
+Essendon North,ESSENDON NORTH,13,0,5,8,15.712,10.025,1370000,More Stops,Fewer Stops
+Essendon West,ESSENDON WEST,8,0,0,8,7.884,9.529,1350000,Fewer Stops,Fewer Stops
+Eumemmerring,EUMEMMERRING,7,0,0,7,6.471,32.317,731500,Fewer Stops,Fewer Stops
+Exford,EXFORD,0,0,0,0,0.000,38.137,,Fewer Stops,Fewer Stops
+Fairfield,FAIRFIELD,39,1,0,38,11.121,5.647,1800000,More Stops,More Stops
+Fawkner,FAWKNER,79,1,0,78,14.938,12.107,873500,More Stops,More Stops
+Ferntree Gully,FERNTREE GULLY,136,1,0,135,9.711,29.013,965000,More Stops,More Stops
+Fieldstone,FIELDSTONE,0,0,0,0,0.000,28.465,,Fewer Stops,Fewer Stops
+Fingal,FINGAL,0,0,0,0,0.000,67.612,1780000,Fewer Stops,Fewer Stops
+Fitzroy,FITZROY,37,0,29,8,26.378,1.996,1342500,More Stops,More Stops
+Fitzroy North,FITZROY NORTH,71,1,31,39,28.316,3.789,1788000,More Stops,More Stops
+Flemington,FLEMINGTON,28,2,13,13,9.816,4.875,1100000,More Stops,Fewer Stops
+Flinders,FLINDERS,5,0,0,5,0.089,71.630,1900000,Fewer Stops,Fewer Stops
+Footscray,FOOTSCRAY,112,2,15,95,22.363,6.051,950000,More Stops,More Stops
+Forest Hill,FOREST HILL,51,0,1,50,12.546,18.538,1271500,More Stops,More Stops
+Frankston,FRANKSTON,213,2,0,211,10.787,40.451,880000,More Stops,More Stops
+Frankston North,FRANKSTON NORTH,38,0,0,38,7.409,38.697,740000,More Stops,More Stops
+Frankston South,FRANKSTON SOUTH,68,0,0,68,4.550,42.783,1200000,More Stops,More Stops
+Fraser Rise,FRASER RISE,25,0,0,25,2.400,25.157,700000,More Stops,Fewer Stops
+Gardenvale,GARDENVALE,9,0,0,9,34.543,10.216,,Fewer Stops,Fewer Stops
+Garfield,GARFIELD,2,0,0,2,0.076,69.786,850000,Fewer Stops,Fewer Stops
+Gembrook,GEMBROOK,17,0,0,17,0.084,61.230,876300,More Stops,Fewer Stops
+Gladstone Park,GLADSTONE PARK,32,0,0,32,8.688,15.018,850000,More Stops,Fewer Stops
+Glen Huntly,GLEN HUNTLY,9,1,6,2,10.157,11.131,1970000,Fewer Stops,Fewer Stops
+Glen Iris,GLEN IRIS,75,3,22,50,9.340,10.127,2685000,More Stops,More Stops
+Glen Waverley,GLEN WAVERLEY,174,2,0,172,10.327,19.567,1800000,More Stops,More Stops
+Glenroy,GLENROY,80,2,0,78,8.946,12.715,911000,More Stops,More Stops
+Gowanbrae,GOWANBRAE,16,0,0,16,12.212,13.557,960000,More Stops,Fewer Stops
+Grangefields,GRANGEFIELDS,1,0,0,1,0.132,31.140,,Fewer Stops,Fewer Stops
+Greensborough,GREENSBOROUGH,107,1,0,106,10.485,17.973,996900,More Stops,More Stops
+Greenvale,GREENVALE,78,0,0,78,2.562,20.983,906500,More Stops,More Stops
+Hadfield,HADFIELD,44,1,0,43,13.914,11.538,925000,More Stops,More Stops
+Hallam,HALLAM,59,1,0,58,7.170,34.452,830000,More Stops,More Stops
+Hampton,HAMPTON,66,1,0,65,15.597,14.381,2227500,More Stops,More Stops
+Hampton East,HAMPTON EAST,20,0,0,20,13.979,15.112,1538000,More Stops,Fewer Stops
+Hampton Park,HAMPTON PARK,105,0,0,105,7.881,36.684,735000,More Stops,More Stops
+Harkaway,HARKAWAY,0,0,0,0,0.000,40.254,,Fewer Stops,Fewer Stops
+Harkness,HARKNESS,34,0,0,34,1.899,40.731,637000,More Stops,Fewer Stops
+Hastings,HASTINGS,30,1,0,29,1.116,57.113,740000,More Stops,Fewer Stops
+Hawthorn,HAWTHORN,79,2,54,23,13.334,6.200,3070000,More Stops,More Stops
+Hawthorn East,HAWTHORN EAST,17,1,9,7,4.875,7.903,2888000,More Stops,Fewer Stops
+Healesville,HEALESVILLE,37,0,0,37,0.260,54.538,855000,More Stops,More Stops
+Heatherton,HEATHERTON,27,0,0,27,3.882,19.507,1152500,More Stops,Fewer Stops
+Heathmont,HEATHMONT,17,1,0,16,3.820,24.814,1162500,More Stops,Fewer Stops
+Heidelberg,HEIDELBERG,28,1,0,27,9.545,11.597,1602800,More Stops,Fewer Stops
+Heidelberg Heights,HEIDELBERG HEIGHTS,36,0,0,36,17.328,11.148,1050000,More Stops,More Stops
+Heidelberg West,HEIDELBERG WEST,42,0,0,42,13.118,10.970,715000,More Stops,More Stops
+Highett,HIGHETT,48,1,0,47,13.063,16.637,1506300,More Stops,More Stops
+Hillside,HILLSIDE,47,0,0,47,5.751,23.823,,More Stops,More Stops
+Hmas Cerberus,HMAS CERBERUS,1,0,0,1,0.066,66.298,,Fewer Stops,Fewer Stops
+Hoppers Crossing,HOPPERS CROSSING,175,0,0,175,9.922,24.347,700000,More Stops,More Stops
+Hughesdale,HUGHESDALE,36,0,0,36,17.721,14.102,1735000,More Stops,More Stops
+Huntingdale,HUNTINGDALE,7,0,0,7,8.709,16.511,1280000,Fewer Stops,Fewer Stops
+Hurstbridge,HURSTBRIDGE,4,1,0,3,0.274,28.245,970000,Fewer Stops,Fewer Stops
+Ivanhoe,IVANHOE,64,2,0,62,11.533,8.730,1999000,More Stops,More Stops
+Ivanhoe East,IVANHOE EAST,18,0,0,18,8.648,9.769,2300000,More Stops,Fewer Stops
+Jacana,JACANA,17,0,0,17,13.277,14.749,660000,More Stops,Fewer Stops
+Junction Village,JUNCTION VILLAGE,8,0,0,8,5.660,45.968,662500,Fewer Stops,Fewer Stops
+Kalkallo,KALKALLO,18,0,0,18,2.566,31.930,650000,More Stops,Fewer Stops
+Kangaroo Ground,KANGAROO GROUND,12,0,0,12,0.370,27.415,,More Stops,Fewer Stops
+Kealba,KEALBA,17,0,0,17,7.000,14.596,752000,More Stops,Fewer Stops
+Keilor,KEILOR,32,0,0,32,3.130,16.815,1203000,More Stops,Fewer Stops
+Keilor Downs,KEILOR DOWNS,45,0,0,45,9.522,17.398,891000,More Stops,More Stops
+Keilor East,KEILOR EAST,61,0,0,61,6.290,12.517,1102500,More Stops,More Stops
+Keilor Lodge,KEILOR LODGE,7,0,0,7,8.268,19.229,1090500,Fewer Stops,Fewer Stops
+Keilor Park,KEILOR PARK,13,0,0,13,4.085,14.350,922500,More Stops,Fewer Stops
+Kensington,KENSINGTON,18,2,4,12,8.303,3.829,1074000,More Stops,Fewer Stops
+Kew,KEW,116,0,46,70,11.027,6.276,2510000,More Stops,More Stops
+Kew East,KEW EAST,42,0,9,33,10.376,8.278,,More Stops,More Stops
+Keysborough,KEYSBOROUGH,122,0,0,122,5.601,27.845,1004400,More Stops,More Stops
+Kilsyth,KILSYTH,57,0,0,57,6.046,31.293,870000,More Stops,More Stops
+Kilsyth South,KILSYTH SOUTH,18,0,0,18,5.379,30.692,961000,More Stops,Fewer Stops
+Kings Park,KINGS PARK,28,0,0,28,11.110,19.032,669000,More Stops,Fewer Stops
+Kingsbury,KINGSBURY,16,0,0,16,12.713,12.488,896000,More Stops,Fewer Stops
+Kingsville,KINGSVILLE,8,0,0,8,11.210,7.384,1098800,Fewer Stops,Fewer Stops
+Knoxfield,KNOXFIELD,53,0,0,53,9.464,26.607,1069400,More Stops,More Stops
+Koo Wee Rup,KOO WEE RUP,0,0,0,0,0.000,62.029,720000,Fewer Stops,Fewer Stops
+Koo Wee Rup North,KOO WEE RUP NORTH,0,0,0,0,0.000,62.960,,Fewer Stops,Fewer Stops
+Kooyong,KOOYONG,7,1,6,0,14.152,7.100,,Fewer Stops,Fewer Stops
+Kurunjang,KURUNJANG,38,0,0,38,3.667,36.881,610000,More Stops,More Stops
+Lalor,LALOR,78,1,0,77,8.387,16.859,787500,More Stops,More Stops
+Lang Lang,LANG LANG,0,0,0,0,0.000,76.226,755000,Fewer Stops,Fewer Stops
+Lang Lang East,LANG LANG EAST,0,0,0,0,0.000,79.350,,Fewer Stops,Fewer Stops
+Langwarrin,LANGWARRIN,86,0,0,86,2.988,43.079,912500,More Stops,More Stops
+Langwarrin South,LANGWARRIN SOUTH,10,0,0,10,1.144,46.240,,Fewer Stops,Fewer Stops
+Launching Place,LAUNCHING PLACE,12,0,0,12,0.333,54.139,797500,More Stops,Fewer Stops
+Laverton,LAVERTON,23,2,0,21,6.000,17.945,640000,More Stops,Fewer Stops
+Laverton North,LAVERTON NORTH,47,0,0,47,3.053,15.610,,More Stops,More Stops
+Lilydale,LILYDALE,90,1,0,89,3.087,36.224,931500,More Stops,More Stops
+Little River,LITTLE RIVER,0,0,0,0,0.000,45.604,,Fewer Stops,Fewer Stops
+Lower Plenty,LOWER PLENTY,13,0,0,13,1.904,15.836,1200000,More Stops,Fewer Stops
+Lynbrook,LYNBROOK,25,1,0,24,6.051,37.227,958500,More Stops,Fewer Stops
+Lyndhurst,LYNDHURST,18,0,0,18,1.940,36.791,1055000,More Stops,Fewer Stops
+Lysterfield,LYSTERFIELD,22,0,0,22,0.705,32.642,1480000,More Stops,Fewer Stops
+Lysterfield South,LYSTERFIELD SOUTH,0,0,0,0,0.000,30.857,,Fewer Stops,Fewer Stops
+Macleod,MACLEOD,37,1,0,36,8.092,13.952,1101000,More Stops,More Stops
+Maidstone,MAIDSTONE,43,0,1,42,13.555,8.588,850000,More Stops,More Stops
+Malvern,MALVERN,50,2,48,0,17.101,7.941,2690000,More Stops,More Stops
+Malvern East,MALVERN EAST,107,3,17,87,13.886,11.402,2180000,More Stops,More Stops
+Mambourin,MAMBOURIN,10,0,0,10,0.281,37.239,635000,Fewer Stops,Fewer Stops
+Manor Lakes,MANOR LAKES,36,0,0,36,2.255,34.131,660000,More Stops,More Stops
+Maribyrnong,MARIBYRNONG,78,0,30,48,14.161,8.039,1270000,More Stops,More Stops
+McCrae,MCCRAE,10,0,0,10,2.336,60.260,1050000,Fewer Stops,Fewer Stops
+McKinnon,MCKINNON,25,1,0,24,16.044,12.666,1900000,More Stops,Fewer Stops
+Meadow Heights,MEADOW HEIGHTS,62,0,0,62,13.013,18.462,700500,More Stops,More Stops
+Melbourne,MELBOURNE,183,5,123,55,28.044,1.467,,More Stops,More Stops
+Melbourne Airport,MELBOURNE AIRPORT,13,0,0,13,0.482,19.040,,More Stops,Fewer Stops
+Melton,MELTON,58,0,0,58,2.856,34.543,577500,More Stops,More Stops
+Melton South,MELTON SOUTH,39,0,0,39,7.257,36.544,581300,More Stops,More Stops
+Melton West,MELTON WEST,52,0,0,52,5.608,40.074,648500,More Stops,More Stops
+Mentone,MENTONE,60,1,0,59,13.300,20.858,1347500,More Stops,More Stops
+Mernda,MERNDA,82,1,0,81,3.653,26.835,757500,More Stops,More Stops
+Mickleham,MICKLEHAM,49,0,0,49,0.896,30.887,717000,More Stops,More Stops
+Middle Park,MIDDLE PARK,21,0,10,11,23.790,4.173,2940000,More Stops,Fewer Stops
+Mill Park,MILL PARK,153,0,0,153,11.938,18.823,891300,More Stops,More Stops
+Millgrove,MILLGROVE,5,0,0,5,0.535,61.054,626800,Fewer Stops,Fewer Stops
+Mitcham,MITCHAM,93,1,0,92,13.994,20.779,1308500,More Stops,More Stops
+Monbulk,MONBULK,19,0,0,19,0.937,41.450,802000,More Stops,Fewer Stops
+Mont Albert,MONT ALBERT,22,1,5,16,12.920,12.747,2310000,More Stops,Fewer Stops
+Mont Albert North,MONT ALBERT NORTH,30,0,0,30,14.026,13.055,1710000,More Stops,Fewer Stops
+Montmorency,MONTMORENCY,30,1,0,29,7.902,17.726,1180000,More Stops,Fewer Stops
+Montrose,MONTROSE,38,0,0,38,3.411,33.817,975000,More Stops,More Stops
+Moonee Ponds,MOONEE PONDS,86,1,18,67,19.731,6.467,1660500,More Stops,More Stops
+Moorabbin,MOORABBIN,55,1,0,54,12.068,16.453,1250000,More Stops,More Stops
+Moorabbin Airport,MOORABBIN AIRPORT,7,0,0,7,2.344,21.799,,Fewer Stops,Fewer Stops
+Mooroolbark,MOOROOLBARK,43,1,0,42,3.465,32.120,902500,More Stops,More Stops
+Mordialloc,MORDIALLOC,48,1,0,47,10.865,23.709,1390000,More Stops,More Stops
+Mornington,MORNINGTON,124,0,0,124,5.818,47.026,1155000,More Stops,More Stops
+Mount Cottrell,MOUNT COTTRELL,2,0,0,2,0.034,30.290,750000,Fewer Stops,Fewer Stops
+Mount Dandenong,MOUNT DANDENONG,35,0,0,35,4.415,34.173,1142500,More Stops,Fewer Stops
+Mount Eliza,MOUNT ELIZA,30,0,0,30,1.284,43.838,1785000,More Stops,Fewer Stops
+Mount Evelyn,MOUNT EVELYN,42,0,0,42,2.420,37.535,882500,More Stops,More Stops
+Mount Martha,MOUNT MARTHA,84,0,0,84,2.768,51.608,1815000,More Stops,More Stops
+Mount Waverley,MOUNT WAVERLEY,121,2,0,119,7.961,16.234,1590000,More Stops,More Stops
+Mulgrave,MULGRAVE,110,0,0,110,10.252,22.482,1135000,More Stops,More Stops
+Murrumbeena,MURRUMBEENA,53,2,0,51,20.223,13.183,1870000,More Stops,More Stops
+Nar Nar Goon,NAR NAR GOON,1,0,0,1,0.019,62.348,,Fewer Stops,Fewer Stops
+Nar Nar Goon North,NAR NAR GOON NORTH,0,0,0,0,0.000,58.382,708000,Fewer Stops,Fewer Stops
+Narre Warren,NARRE WARREN,114,1,0,113,8.271,37.745,838000,More Stops,More Stops
+Narre Warren North,NARRE WARREN NORTH,21,0,0,21,0.951,36.020,1500000,More Stops,Fewer Stops
+Narre Warren South,NARRE WARREN SOUTH,110,0,0,110,8.401,40.128,857500,More Stops,More Stops
+Newport,NEWPORT,60,2,0,58,11.666,8.001,1342500,More Stops,More Stops
+Niddrie,NIDDRIE,32,0,4,28,17.226,10.748,1250000,More Stops,Fewer Stops
+Noble Park,NOBLE PARK,77,2,0,75,8.964,25.556,849500,More Stops,More Stops
+Noble Park North,NOBLE PARK NORTH,40,0,0,40,10.948,25.179,815000,More Stops,More Stops
+North Melbourne,NORTH MELBOURNE,56,3,30,23,23.575,2.325,1361000,More Stops,More Stops
+North Warrandyte,NORTH WARRANDYTE,31,0,0,31,3.405,24.345,,More Stops,Fewer Stops
+Northcote,NORTHCOTE,110,5,29,76,18.221,5.627,1601000,More Stops,More Stops
+Notting Hill,NOTTING HILL,17,0,0,17,10.648,18.694,1213000,More Stops,Fewer Stops
+Nunawading,NUNAWADING,69,1,0,68,13.599,18.796,1270000,More Stops,More Stops
+Oak Park,OAK PARK,20,1,0,19,9.702,11.413,1120000,More Stops,Fewer Stops
+Oakleigh,OAKLEIGH,58,2,0,56,16.772,15.151,1432500,More Stops,More Stops
+Oakleigh East,OAKLEIGH EAST,29,0,0,29,13.988,16.722,1205000,More Stops,Fewer Stops
+Oakleigh South,OAKLEIGH SOUTH,73,0,0,73,10.932,16.868,1315500,More Stops,More Stops
+Officer,OFFICER,38,1,0,37,1.361,47.691,775000,More Stops,More Stops
+Officer South,OFFICER SOUTH,3,0,0,3,0.150,51.487,890000,Fewer Stops,Fewer Stops
+Ormond,ORMOND,34,1,0,33,16.583,12.181,2015000,More Stops,Fewer Stops
+Pakenham,PAKENHAM,151,3,0,148,1.759,54.206,725000,More Stops,More Stops
+Pakenham South,PAKENHAM SOUTH,0,0,0,0,0.000,59.456,,Fewer Stops,Fewer Stops
+Pakenham Upper,PAKENHAM UPPER,13,0,0,13,0.407,52.521,,More Stops,Fewer Stops
+Panton Hill,PANTON HILL,0,0,0,0,0.000,31.356,,Fewer Stops,Fewer Stops
+Park Orchards,PARK ORCHARDS,24,0,0,24,2.531,22.537,1800000,More Stops,Fewer Stops
+Parkdale,PARKDALE,40,1,0,39,11.214,22.345,1635000,More Stops,More Stops
+Parkville,PARKVILLE,52,2,25,25,12.678,3.146,1914400,More Stops,More Stops
+Pascoe Vale,PASCOE VALE,67,1,0,66,13.648,10.074,1050000,More Stops,More Stops
+Pascoe Vale South,PASCOE VALE SOUTH,56,0,10,46,18.112,8.120,1258800,More Stops,More Stops
+Patterson Lakes,PATTERSON LAKES,29,0,0,29,6.772,32.525,1420000,More Stops,Fewer Stops
+Pearcedale,PEARCEDALE,17,0,0,17,0.507,49.427,921500,More Stops,Fewer Stops
+Plenty,PLENTY,10,0,0,10,0.913,20.888,1630000,Fewer Stops,Fewer Stops
+Plumpton,PLUMPTON,0,0,0,0,0.000,28.993,,Fewer Stops,Fewer Stops
+Point Cook,POINT COOK,122,0,0,122,3.138,21.228,842000,More Stops,More Stops
+Point Leo,POINT LEO,1,0,0,1,0.290,67.463,,Fewer Stops,Fewer Stops
+Port Melbourne,PORT MELBOURNE,101,0,5,96,10.042,4.214,1550000,More Stops,More Stops
+Portsea,PORTSEA,18,0,0,18,1.601,61.037,3800000,More Stops,Fewer Stops
+Prahran,PRAHRAN,50,1,30,19,26.983,5.356,1472500,More Stops,More Stops
+Preston,PRESTON,208,2,40,166,18.154,8.909,1250000,More Stops,More Stops
+Princes Hill,PRINCES HILL,2,0,2,0,4.542,3.545,2257500,Fewer Stops,Fewer Stops
+Ravenhall,RAVENHALL,7,0,0,7,0.518,20.397,,Fewer Stops,Fewer Stops
+Red Hill,RED HILL,0,0,0,0,0.000,61.210,1714000,Fewer Stops,Fewer Stops
+Red Hill South,RED HILL SOUTH,0,0,0,0,0.000,64.077,,Fewer Stops,Fewer Stops
+Research,RESEARCH,15,0,0,15,1.675,23.072,1215000,More Stops,Fewer Stops
+Reservoir,RESERVOIR,315,4,11,300,16.731,11.917,970000,More Stops,More Stops
+Richmond,RICHMOND,63,4,53,6,14.183,3.546,1348000,More Stops,More Stops
+Ringwood,RINGWOOD,122,2,0,120,11.987,23.803,1046900,More Stops,More Stops
+Ringwood East,RINGWOOD EAST,27,1,0,26,5.722,25.575,1060000,More Stops,Fewer Stops
+Ringwood North,RINGWOOD NORTH,61,0,0,61,11.685,23.719,1270000,More Stops,More Stops
+Ripponlea,RIPPONLEA,11,1,2,8,38.924,7.665,2000000,More Stops,Fewer Stops
+Rockbank,ROCKBANK,20,0,0,20,2.746,29.039,638000,More Stops,Fewer Stops
+Rosanna,ROSANNA,45,1,0,44,13.310,12.471,1403000,More Stops,More Stops
+Rosebud,ROSEBUD,32,0,0,32,1.863,62.324,731000,More Stops,Fewer Stops
+Rowville,ROWVILLE,139,0,0,139,6.409,27.600,1220000,More Stops,More Stops
+Roxburgh Park,ROXBURGH PARK,59,1,0,58,8.627,21.110,735000,More Stops,More Stops
+Rye,RYE,70,0,0,70,3.909,64.805,950000,More Stops,More Stops
+Safety Beach,SAFETY BEACH,19,0,0,19,3.133,55.789,1175000,More Stops,Fewer Stops
+Sandhurst,SANDHURST,5,0,0,5,1.573,36.800,1075000,Fewer Stops,Fewer Stops
+Sandringham,SANDRINGHAM,45,1,0,44,12.148,16.193,2495000,More Stops,More Stops
+Sassafras,SASSAFRAS,12,0,0,12,2.568,34.302,1012500,More Stops,Fewer Stops
+Scoresby,SCORESBY,53,0,0,53,5.986,24.542,975000,More Stops,More Stops
+Seabrook,SEABROOK,9,0,0,9,5.554,19.484,811000,Fewer Stops,Fewer Stops
+Seaford,SEAFORD,89,2,0,87,7.113,35.800,942000,More Stops,More Stops
+Seaholme,SEAHOLME,5,1,0,4,5.299,11.888,1350000,Fewer Stops,Fewer Stops
+Seddon,SEDDON,19,1,0,18,20.801,6.336,1020000,More Stops,Fewer Stops
+Selby,SELBY,9,0,0,9,1.378,38.372,885000,Fewer Stops,Fewer Stops
+Seville,SEVILLE,8,0,0,8,0.374,45.188,895600,Fewer Stops,Fewer Stops
+Seville East,SEVILLE EAST,3,0,0,3,0.310,47.728,730000,Fewer Stops,Fewer Stops
+Sherbrooke,SHERBROOKE,9,0,0,9,1.362,35.845,,Fewer Stops,Fewer Stops
+Shoreham,SHOREHAM,4,0,0,4,0.198,67.780,1635000,Fewer Stops,Fewer Stops
+Silvan,SILVAN,20,0,0,20,0.665,41.489,,More Stops,Fewer Stops
+Skye,SKYE,8,0,0,8,0.485,39.264,872500,Fewer Stops,Fewer Stops
+Somers,SOMERS,22,0,0,22,1.567,65.371,1420000,More Stops,Fewer Stops
+Somerton,SOMERTON,11,0,0,11,2.056,19.900,,More Stops,Fewer Stops
+Somerville,SOMERVILLE,25,1,0,24,0.651,50.928,875000,More Stops,Fewer Stops
+Sorrento,SORRENTO,43,0,0,43,6.074,62.053,1848800,More Stops,More Stops
+South Kingsville,SOUTH KINGSVILLE,16,0,0,16,22.879,8.292,1660000,More Stops,Fewer Stops
+South Melbourne,SOUTH MELBOURNE,44,0,28,16,20.402,2.316,1932500,More Stops,More Stops
+South Morang,SOUTH MORANG,96,3,0,93,4.552,22.801,810000,More Stops,More Stops
+South Wharf,SOUTH WHARF,1,0,1,0,3.766,1.619,,Fewer Stops,Fewer Stops
+South Yarra,SOUTH YARRA,72,2,34,36,20.201,3.808,1980000,More Stops,More Stops
+Southbank,SOUTHBANK,36,0,25,11,23.233,1.366,,More Stops,More Stops
+Spotswood,SPOTSWOOD,16,1,0,15,5.269,6.861,1000000,More Stops,Fewer Stops
+Springvale,SPRINGVALE,84,2,0,82,7.646,22.561,970000,More Stops,More Stops
+Springvale South,SPRINGVALE SOUTH,48,0,0,48,10.630,23.852,859300,More Stops,More Stops
+St Albans,ST ALBANS,130,3,0,127,9.978,15.832,730000,More Stops,More Stops
+St Andrews,ST ANDREWS,0,0,0,0,0.000,38.363,,Fewer Stops,Fewer Stops
+St Andrews Beach,ST ANDREWS BEACH,7,0,0,7,2.260,68.306,1300000,Fewer Stops,Fewer Stops
+St Helena,ST HELENA,11,0,0,11,6.875,20.116,1320000,More Stops,Fewer Stops
+St Kilda,ST KILDA,95,0,60,35,29.985,5.799,1750000,More Stops,More Stops
+St Kilda East,ST KILDA EAST,33,0,11,22,14.556,6.831,1701500,More Stops,Fewer Stops
+St Kilda West,ST KILDA WEST,10,0,6,4,18.669,4.987,2950000,Fewer Stops,Fewer Stops
+Strathmore,STRATHMORE,44,0,0,44,12.732,9.805,1450000,More Stops,More Stops
+Strathmore Heights,STRATHMORE HEIGHTS,8,0,0,8,11.749,12.560,1450000,Fewer Stops,Fewer Stops
+Strathtulloh,STRATHTULLOH,9,0,0,9,0.824,33.451,615000,Fewer Stops,Fewer Stops
+Sunbury,SUNBURY,240,1,0,239,1.818,36.797,740000,More Stops,More Stops
+Sunshine,SUNSHINE,94,1,0,93,20.060,11.656,885000,More Stops,More Stops
+Sunshine North,SUNSHINE NORTH,43,0,0,43,5.436,12.444,806000,More Stops,More Stops
+Sunshine West,SUNSHINE WEST,90,0,0,90,9.363,13.494,809400,More Stops,More Stops
+Surrey Hills,SURREY HILLS,49,1,14,34,11.071,11.987,2200000,More Stops,More Stops
+Sydenham,SYDENHAM,28,0,0,28,7.838,21.532,752000,More Stops,Fewer Stops
+Tarneit,TARNEIT,176,0,0,176,4.593,26.385,675000,More Stops,More Stops
+Taylors Hill,TAYLORS HILL,33,0,0,33,7.241,21.507,938000,More Stops,Fewer Stops
+Taylors Lakes,TAYLORS LAKES,65,1,0,64,8.631,20.138,935000,More Stops,More Stops
+Tecoma,TECOMA,20,1,0,19,10.856,34.997,1093500,More Stops,Fewer Stops
+Templestowe,TEMPLESTOWE,113,0,0,113,6.965,17.639,1757500,More Stops,More Stops
+Templestowe Lower,TEMPLESTOWE LOWER,65,0,0,65,10.926,14.246,1378000,More Stops,More Stops
+The Basin,THE BASIN,15,0,0,15,2.920,31.678,957900,More Stops,Fewer Stops
+Thomastown,THOMASTOWN,113,1,0,112,7.678,14.943,810000,More Stops,More Stops
+Thornbury,THORNBURY,83,1,19,63,16.154,7.208,1475000,More Stops,More Stops
+Thornhill Park,THORNHILL PARK,14,0,0,14,1.766,31.196,605000,More Stops,Fewer Stops
+Toolern Vale,TOOLERN VALE,0,0,0,0,0.000,40.258,,Fewer Stops,Fewer Stops
+Toorak,TOORAK,52,1,27,24,12.107,5.708,6900000,More Stops,More Stops
+Tootgarook,TOOTGAROOK,28,0,0,28,7.910,63.382,881500,More Stops,Fewer Stops
+Tottenham,TOTTENHAM,0,0,0,0,0.000,9.755,,Fewer Stops,Fewer Stops
+Travancore,TRAVANCORE,6,0,3,3,14.464,4.382,,Fewer Stops,Fewer Stops
+Tremont,TREMONT,7,0,0,7,1.282,31.923,,Fewer Stops,Fewer Stops
+Truganina,TRUGANINA,117,0,0,117,1.813,22.162,672000,More Stops,More Stops
+Tullamarine,TULLAMARINE,53,0,0,53,7.104,14.430,800000,More Stops,More Stops
+Tyabb,TYABB,17,1,0,16,0.712,53.756,875000,More Stops,Fewer Stops
+Upper Ferntree Gully,UPPER FERNTREE GULLY,14,1,0,13,3.914,31.874,990000,More Stops,Fewer Stops
+Upper Plenty,UPPER PLENTY,0,0,0,0,0.000,44.459,,Fewer Stops,Fewer Stops
+Upwey,UPWEY,33,1,0,32,5.288,33.777,905000,More Stops,Fewer Stops
+Vermont,VERMONT,49,0,0,49,10.737,20.968,1335000,More Stops,More Stops
+Vermont South,VERMONT SOUTH,52,0,5,47,8.390,20.290,1572500,More Stops,More Stops
+Viewbank,VIEWBANK,27,0,0,27,5.877,14.097,1295500,More Stops,Fewer Stops
+Wallan,WALLAN,32,0,0,32,0.460,45.004,650000,More Stops,Fewer Stops
+Wandin North,WANDIN NORTH,15,0,0,15,0.911,40.964,1100000,More Stops,Fewer Stops
+Wantirna,WANTIRNA,46,0,0,46,5.579,23.529,1125000,More Stops,More Stops
+Wantirna South,WANTIRNA SOUTH,132,0,0,132,9.333,23.746,1331500,More Stops,More Stops
+Warburton,WARBURTON,12,0,0,12,0.091,65.447,750000,More Stops,Fewer Stops
+Warrandyte,WARRANDYTE,49,0,0,49,2.788,22.908,1223200,More Stops,More Stops
+Warrandyte South,WARRANDYTE SOUTH,3,0,0,3,0.694,25.450,,Fewer Stops,Fewer Stops
+Warranwood,WARRANWOOD,24,0,0,24,7.984,25.654,1268000,More Stops,Fewer Stops
+Waterways,WATERWAYS,5,0,0,5,2.961,26.741,1665000,Fewer Stops,Fewer Stops
+Watsonia,WATSONIA,26,1,0,25,11.550,15.604,1030000,More Stops,Fewer Stops
+Watsonia North,WATSONIA NORTH,22,0,0,22,14.688,16.926,968000,More Stops,Fewer Stops
+Wattle Glen,WATTLE GLEN,3,1,0,2,0.334,25.648,1000000,Fewer Stops,Fewer Stops
+Weir Views,WEIR VIEWS,6,0,0,6,1.184,36.032,597500,Fewer Stops,Fewer Stops
+Werribee,WERRIBEE,260,2,0,258,6.084,30.076,680000,More Stops,More Stops
+Werribee South,WERRIBEE SOUTH,14,0,0,14,0.380,27.196,850000,More Stops,Fewer Stops
+Wesburn,WESBURN,10,0,0,10,0.244,60.971,634500,Fewer Stops,Fewer Stops
+West Footscray,WEST FOOTSCRAY,57,2,0,55,15.066,8.247,1016000,More Stops,More Stops
+West Melbourne,WEST MELBOURNE,38,2,3,33,5.620,3.335,1520000,More Stops,More Stops
+Westmeadows,WESTMEADOWS,36,0,0,36,7.428,16.557,800000,More Stops,More Stops
+Wheelers Hill,WHEELERS HILL,102,0,0,102,9.851,22.295,1539500,More Stops,More Stops
+Wildwood,WILDWOOD,0,0,0,0,0.000,31.714,,Fewer Stops,Fewer Stops
+Williams Landing,WILLIAMS LANDING,27,1,0,26,7.059,20.103,840000,More Stops,Fewer Stops
+Williamstown,WILLIAMSTOWN,66,2,0,64,11.489,8.330,1560000,More Stops,More Stops
+Williamstown North,WILLIAMSTOWN NORTH,5,0,0,5,2.820,9.352,1292500,Fewer Stops,Fewer Stops
+Windsor,WINDSOR,23,1,16,6,21.748,5.238,1635000,More Stops,Fewer Stops
+Wollert,WOLLERT,36,0,0,36,0.663,24.882,725000,More Stops,More Stops
+Wonga Park,WONGA PARK,30,0,0,30,1.300,28.365,1387500,More Stops,Fewer Stops
+Woodstock,WOODSTOCK,0,0,0,0,0.000,30.845,640000,Fewer Stops,Fewer Stops
+Woori Yallock,WOORI YALLOCK,14,0,0,14,0.529,50.562,736000,More Stops,Fewer Stops
+Wyndham Vale,WYNDHAM VALE,66,0,0,66,2.529,31.648,615000,More Stops,More Stops
+Yallambie,YALLAMBIE,13,0,0,13,4.556,15.110,1026800,More Stops,Fewer Stops
+Yan Yean,YAN YEAN,10,0,0,10,0.309,32.658,,Fewer Stops,Fewer Stops
+Yarra Glen,YARRA GLEN,4,0,0,4,0.114,41.275,951000,Fewer Stops,Fewer Stops
+Yarra Junction,YARRA JUNCTION,15,0,0,15,0.853,58.366,770000,More Stops,Fewer Stops
+Yarrambat,YARRAMBAT,22,0,0,22,1.425,24.736,,More Stops,Fewer Stops
+Yarraville,YARRAVILLE,88,1,0,87,15.464,7.163,1208000,More Stops,More Stops
